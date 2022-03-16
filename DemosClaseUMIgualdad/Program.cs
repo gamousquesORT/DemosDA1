@@ -2,9 +2,9 @@
 
 namespace DemosClase
 {
-    public class Persona
+    public class Person
     {
-        protected bool Equals(Persona other)
+        protected bool Equals(Person other)
         {
             return _name == other._name;
         }
@@ -14,7 +14,7 @@ namespace DemosClase
             if (ReferenceEquals(null, obj)) return false;
             if (ReferenceEquals(this, obj)) return true;
             if (obj.GetType() != this.GetType()) return false;
-            return Equals((Persona)obj);
+            return Equals((Person)obj);
         }
 
         public override int GetHashCode()
@@ -25,7 +25,7 @@ namespace DemosClase
 
         private string _name;
 
-        public Persona(string name)
+        public Person(string name)
         {
             _name = name ?? throw new ArgumentNullException(nameof(name));
         }
@@ -42,13 +42,13 @@ namespace DemosClase
     {
         static void Main(string[] args)
         {
-            Persona pa = new Persona("Gastón");
+            Person personA = new Person("Gastón");
 
-            Persona pb = new Persona("Gastón");
+            Person personB = new Person("Gastón");
 
             
-            Console.WriteLine( (pa == pb)); //??
-            Console.WriteLine( pa.Equals(pb)); //??
+            Console.WriteLine( (personA == personB)); //??
+            Console.WriteLine( personA.Equals(personB)); //??
                 
         }
     }
