@@ -10,6 +10,8 @@ namespace Static
             Socio socio2 = new Socio(" Gaston", " 34567");
             Console.WriteLine("Nombre socio {0} - {1} - {2}", socio1.GetId(), socio1.Nombre, socio1.Ci);
             Console.WriteLine("Nombre socio {0} - {1} - {2}", socio2.GetId(), socio2.Nombre, socio2.Ci);
+            Console.WriteLine("acceso desde instanica a atributo clase {0}", socio1.AccesoAtributoOrdinalSocios());
+            Console.WriteLine("acceso desde método de instancia a método clase {0}", socio1.AccesoMétodoNuevoSocio());
         }
     }
 
@@ -63,6 +65,16 @@ namespace Static
         private static long NuevoSocio()
         {
             return ++ordinalSocios;
+        }
+
+        public long AccesoAtributoOrdinalSocios()
+        {
+            return ++ordinalSocios;
+        }
+        
+        public long AccesoMétodoNuevoSocio()
+        {
+            return NuevoSocio();
         }
         // otros métodos
     }
