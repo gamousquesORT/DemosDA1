@@ -34,7 +34,7 @@ namespace EjemploHerencia
         }
 
         public Estudiante(string unNombre, int unNroEstudiante)
-            :base(unNombre)
+            //:base(unNombre)
         {
             Console.WriteLine("Estudiante -> Constructor con parámetros de Estudiante");
             //this.Nombre = unNombre;
