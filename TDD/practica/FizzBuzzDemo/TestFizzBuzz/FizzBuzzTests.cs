@@ -31,7 +31,7 @@ namespace TestFizzBuzz
     public class UnitTest1
     {
         [Fact]
-        public void Dado3retornaFiz()
+        public void Given3_returns_Fizz()
         {
             //Arrange
             FizzBuzz.FizzBuzz fb = new FizzBuzz.FizzBuzz();

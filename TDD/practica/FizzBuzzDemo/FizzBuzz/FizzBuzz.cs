@@ -6,7 +6,7 @@ namespace FizzBuzz
     {
         public String CheckNumber(int number)
         {
-            return "Mal";
+            return "Fizz";
         }
     }
 }
