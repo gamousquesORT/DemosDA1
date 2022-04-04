@@ -51,18 +51,24 @@ namespace TestFizzBuzz
             Assert.Equal("Buzz", got);
         }
 
-        [Fact]
-        public void Given15_returns_FizzBuzz()
+        [Theory]
+        [InlineData(15)]
+        [InlineData(30)]
+        public void Given15_returns_FizzBuzz(int num)
         {
-            String got = fb.CheckNumber(15);
+            String got = fb.CheckNumber(num);
             Assert.Equal("FizzBuzz", got);
         }
-
-        [Fact]
-        public void GivenANubmerNotDivisibleby3or5_return_theNumber()
+        
+        [Theory]
+        [InlineData(2)]
+        [InlineData(4)] 
+        [InlineData(7)]
+        [InlineData(82)]
+        public void GivenANubmerNotDivisibleby3or5_return_theNumber(int num)
         {
-            String got = fb.CheckNumber(2);
-            Assert.Equal("2", got);
+            String got = fb.CheckNumber(num);
+            Assert.Equal(num.ToString(), got);
             
         }
 
