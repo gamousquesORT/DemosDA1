@@ -6,7 +6,9 @@ namespace FizzBuzzLogic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            FizzBuzz fb = new FizzBuzz();
+            for (int i = 1;  i<=100 ; i++)
+            Console.WriteLine(fb.CheckNumber(i));
         }
     }
 }

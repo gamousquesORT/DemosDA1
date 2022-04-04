@@ -15,34 +15,34 @@ namespace FizzBuzzLogic
 
             return results;
         }
+
         public String CheckNumber(int number)
         {
+            string result = "";
+
             if (number <= 0)
                 throw new ArgumentOutOfRangeException("wrong parameter");
-
-            if (DividedByThree(number) && DividedByFive(number))
-            {
-                return "FizzBuzz";
-            } else if (DividedByThree(number))
-                return "Fizz";
-            else if (DividedByFive(number))
-            {
-                return "Buzz";
-            }
             else
             {
-                return number.ToString();
+                result += DividedByThree(number);
+                result += DividedByFive(number);
+                if (result == "")
+                {
+                    result = number.ToString();
+                }
             }
+
+            return result;
         }
 
-        private static bool DividedByFive(int number)
+        private  string DividedByFive(int number)
         {
-            return number % 5 == 0;
+            return (number % 5 == 0) ? "Buzz" : "";
         }
 
-        private static bool DividedByThree(int number)
+        private  string DividedByThree(int number)
         {
-            return number % 3 ==0;
+            return (number % 3 ==0) ? "Fizz" : "";
         }
     }
 }
