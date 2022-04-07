@@ -1,4 +1,6 @@
 /*
+ Url repo: https://github.com/guyroyse/vending-machine-kata
+
 * Vending Machine Kata
   ====================
 

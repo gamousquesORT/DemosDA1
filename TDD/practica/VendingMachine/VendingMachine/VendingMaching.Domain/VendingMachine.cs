@@ -2,7 +2,7 @@
 
 namespace VendingMaching.Domain
 {
-    public class Class1
+    public class VendingMachine
     {
     }
 }

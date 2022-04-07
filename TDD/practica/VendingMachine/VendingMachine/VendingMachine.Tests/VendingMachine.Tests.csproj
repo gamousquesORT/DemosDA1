@@ -19,4 +19,8 @@
         </PackageReference>
     </ItemGroup>
 
+    <ItemGroup>
+      <ProjectReference Include="..\VendingMaching.Domain\VendingMaching.Domain.csproj" />
+    </ItemGroup>
+
 </Project>

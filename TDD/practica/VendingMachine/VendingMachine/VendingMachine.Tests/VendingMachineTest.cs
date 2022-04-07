@@ -4,7 +4,7 @@ using Xunit;
 
 namespace VendingMachine.Tests
 {
-    public class UnitTest1
+    public class VendingMachineTests
     {
         [Fact]
         public void Test1()
