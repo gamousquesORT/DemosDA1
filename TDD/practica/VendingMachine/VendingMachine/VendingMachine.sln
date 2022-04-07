@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMaching.Domain", "VendingMaching.Domain\VendingMaching.Domain.csproj", "{67B60900-FB37-4333-BF2A-B72DFD568479}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VendingMachine.Tests", "VendingMachine.Tests\VendingMachine.Tests.csproj", "{95FED3B1-D8D7-4205-84D3-00092CCD1D83}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{67B60900-FB37-4333-BF2A-B72DFD568479}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{67B60900-FB37-4333-BF2A-B72DFD568479}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{67B60900-FB37-4333-BF2A-B72DFD568479}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{67B60900-FB37-4333-BF2A-B72DFD568479}.Release|Any CPU.Build.0 = Release|Any CPU
+		{95FED3B1-D8D7-4205-84D3-00092CCD1D83}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{95FED3B1-D8D7-4205-84D3-00092CCD1D83}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{95FED3B1-D8D7-4205-84D3-00092CCD1D83}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{95FED3B1-D8D7-4205-84D3-00092CCD1D83}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
