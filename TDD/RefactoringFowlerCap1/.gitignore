@@ -1,0 +1,7 @@
+/Chapter1.Tests/obj
+/Chapter1.Tests/bin
+/Chapter1/bin
+/Chapter1/obj
+/.vs
+/coverage.opencover.xml
+*.plog

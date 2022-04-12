@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "Chapter1"
+		},
+		{
+			"path": "Chapter1.Tests"
+		}
+	],
+	"settings": {
+		"dotnet-test-explorer.testProjectPath": "../*.Tests/*.Tests.csproj"
+	}
+}
