@@ -18,14 +18,13 @@ namespace Chapter1
         {
             int totalAmount = 0;
             int volumeCredits = 0;
-
             IFormatProvider format = new CultureInfo("en-US");
-
             var resultStatement = new StringBuilder().AppendLine($"Statement for {invoice.Customer}");
 
             foreach (var perf in invoice.Performances)
             {
                 // add volume credits
+                //*** Tercer Refactoreo - ver las variables
                 volumeCredits += Math.Max(perf.Audience - 30, 0);
                 // add extra credit for every ten comedy attendees
                 if (PayType.Comedy == PlayFor(perf).PayType) volumeCredits += (int)Math.Floor((decimal)perf.Audience / 5);
@@ -45,7 +44,7 @@ namespace Chapter1
             {
                 return plays[aPerformance.PlayId];
             }
-
+            
             int AmountFor(Performance aPerformance)
             {
                 int result;
@@ -67,7 +66,6 @@ namespace Chapter1
                     default:
                         throw new Exception($"unknown type: {PlayFor(aPerformance).PayType}");
                 }
-
                 return result;
             }
         }

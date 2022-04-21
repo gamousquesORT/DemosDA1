@@ -25,8 +25,9 @@ namespace Chapter1
 
             foreach (var perf in invoice.Performances)
             {
+                // *** Segundo refactor ver variables perfromance y play
                 var play = plays[perf.PlayId];
-                int thisAmount = AmountFor(perf, play);
+                int thisAmount = AmountFor(perf, play);  //** refactor Extract method
 
                 // add volume credits
                 volumeCredits += Math.Max(perf.Audience - 30, 0);
@@ -44,8 +45,10 @@ namespace Chapter1
             resultStatement.Append($"You earned {volumeCredits} credits");
             return resultStatement.ToString();
 
+            //******* Segundo refactoreo, se necesita Performance y Play?
             int AmountFor(Performance aPerformance, Play play)
             {
+                //*** No se podrá usar un mejor nombre de varaible
                 int result;
 
                 switch (play.PayType)

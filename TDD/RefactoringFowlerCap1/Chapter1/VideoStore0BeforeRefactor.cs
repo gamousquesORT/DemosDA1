@@ -27,7 +27,9 @@ namespace Chapter1
             {
                 var play = plays[perf.PlayId];
                 int thisAmount;
-
+                
+                //******** Primer Refactoreo
+                
                 switch (play.PayType)
                 {
                     case PayType.Tragedy:

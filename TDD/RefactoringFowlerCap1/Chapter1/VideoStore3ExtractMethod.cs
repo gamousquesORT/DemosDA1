@@ -25,7 +25,7 @@ namespace Chapter1
 
             foreach (var perf in invoice.Performances)
             {
-                volumeCredits += VolumeCreditsFor(perf);
+                volumeCredits += VolumeCreditsFor(perf);  //** extract function / method
 
                 // print line for this order
                 resultStatement.AppendFormat(format, $"  {PlayFor(perf).Name}: {AmountFor(perf) / 100:C}");
