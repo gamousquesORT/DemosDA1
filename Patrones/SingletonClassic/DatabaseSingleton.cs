@@ -11,6 +11,7 @@ namespace SingletonClassic
         private Database()
         {
             instance = null;
+            Console.WriteLine("Initializing database");
         }
         public static Database GetInstance()
         {
@@ -18,7 +19,7 @@ namespace SingletonClassic
                 instance = new Database();
             return instance;
         }
-        
+        public static Database Instance => instance;
 
     }
 }

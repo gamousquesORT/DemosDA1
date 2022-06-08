@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemplosDePatrones", "Ejemp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonClassic", "SingletonClassic\SingletonClassic.csproj", "{478718AC-92FF-4148-B5D0-BA7261350D80}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonThreadSafe", "SingletonThreadSafe\SingletonThreadSafe.csproj", "{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{478718AC-92FF-4148-B5D0-BA7261350D80}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{478718AC-92FF-4148-B5D0-BA7261350D80}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{478718AC-92FF-4148-B5D0-BA7261350D80}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
