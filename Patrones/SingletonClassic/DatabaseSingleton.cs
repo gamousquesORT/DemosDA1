@@ -4,22 +4,22 @@ namespace SingletonClassic
 {
     public class Database
     {
-        private static Database instance = null;
+        private static Database _instance;
 
         public string DataBaseName { get; set; }
 
         private Database()
         {
-            instance = null;
+            _instance = null;
             Console.WriteLine("Initializing database");
         }
         public static Database GetInstance()
         {
-            if (instance == null)
-                instance = new Database();
-            return instance;
+            if (_instance == null)
+                _instance = new Database();
+            return _instance;
         }
-        public static Database Instance => instance;
+        public static Database Instance => _instance;
 
     }
 }
