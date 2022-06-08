@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonClassic", "Singlet
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonThreadSafe", "SingletonThreadSafe\SingletonThreadSafe.csproj", "{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonClassicCounter", "SingletonClassicCounter\SingletonClassicCounter.csproj", "{F24EDAAA-4B78-4535-8BEF-BB7411E2A827}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreSimpleFactory", "PizzaStoreSimpleFactory\PizzaStoreSimpleFactory.csproj", "{05747872-6ECA-4AB0-BD35-CB65A02184CE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +31,14 @@ Global
 		{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{50E2E8CC-C99A-4CB2-A78C-29A257E2C16B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F24EDAAA-4B78-4535-8BEF-BB7411E2A827}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F24EDAAA-4B78-4535-8BEF-BB7411E2A827}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F24EDAAA-4B78-4535-8BEF-BB7411E2A827}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F24EDAAA-4B78-4535-8BEF-BB7411E2A827}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05747872-6ECA-4AB0-BD35-CB65A02184CE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05747872-6ECA-4AB0-BD35-CB65A02184CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05747872-6ECA-4AB0-BD35-CB65A02184CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05747872-6ECA-4AB0-BD35-CB65A02184CE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
