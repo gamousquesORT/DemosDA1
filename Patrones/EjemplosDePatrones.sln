@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonClassicCounter", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PizzaStoreSimpleFactory", "PizzaStoreSimpleFactory\PizzaStoreSimpleFactory.csproj", "{05747872-6ECA-4AB0-BD35-CB65A02184CE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy", "Strategy\Strategy.csproj", "{4F815D72-E3C5-44EF-BB9D-F26BE5B80F8E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{05747872-6ECA-4AB0-BD35-CB65A02184CE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05747872-6ECA-4AB0-BD35-CB65A02184CE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05747872-6ECA-4AB0-BD35-CB65A02184CE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4F815D72-E3C5-44EF-BB9D-F26BE5B80F8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4F815D72-E3C5-44EF-BB9D-F26BE5B80F8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4F815D72-E3C5-44EF-BB9D-F26BE5B80F8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4F815D72-E3C5-44EF-BB9D-F26BE5B80F8E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
