@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>EjemplosDePatrones</RootNamespace>
     <AssemblyName>EjemplosDePatrones</AssemblyName>
-    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+        <TargetFramework>net6.0</TargetFramework>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
