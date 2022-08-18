@@ -27,5 +27,10 @@ namespace ejemplosClase
         {
             return numberOfPosts;
         }
+
+        public override string ToString() 
+        {
+            return this.postInfoAsText();
+        }
     }
 }
