@@ -4,14 +4,7 @@ namespace ejemplosClase
 {
     class Program
     {
-        /*       static void Main(string[] args)
-               {
-                   BlogEntry entry = new BlogEntry();
-                   entry.postInfo("Este es un post sobre métodos de clase");
-                   Console.WriteLine("El post dice:" + entry.postInfoAsText());
-                   Console.WriteLine("El atributo de clase tiene valor: " + BlogEntry.getNumberOfPosts());
-               }
-               */
+     
  
         static void Main(string[] args)
         { 

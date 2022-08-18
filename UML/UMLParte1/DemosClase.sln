@@ -8,6 +8,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemplosUMLClase1", "Ejempl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudiante", "Estudiante\Estudiante.csproj", "{A68E3979-C869-4273-9A28-85787F157F2D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEntry", "BlogEntry\BlogEntry.csproj", "{416FCB0C-0927-4B6A-8984-D38ECFE093DA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +32,9 @@ Global
 		{A68E3979-C869-4273-9A28-85787F157F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A68E3979-C869-4273-9A28-85787F157F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A68E3979-C869-4273-9A28-85787F157F2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{416FCB0C-0927-4B6A-8984-D38ECFE093DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{416FCB0C-0927-4B6A-8984-D38ECFE093DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{416FCB0C-0927-4B6A-8984-D38ECFE093DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{416FCB0C-0927-4B6A-8984-D38ECFE093DA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
