@@ -6,6 +6,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemplosUMLClase1", "EjemplosUMLClase1\EjemplosUMLClase1.csproj", "{6CE492CD-5D1C-49FF-9CC2-92F631334D85}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudiante", "Estudiante\Estudiante.csproj", "{A68E3979-C869-4273-9A28-85787F157F2D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -24,5 +26,9 @@ Global
 		{6CE492CD-5D1C-49FF-9CC2-92F631334D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6CE492CD-5D1C-49FF-9CC2-92F631334D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6CE492CD-5D1C-49FF-9CC2-92F631334D85}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A68E3979-C869-4273-9A28-85787F157F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A68E3979-C869-4273-9A28-85787F157F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A68E3979-C869-4273-9A28-85787F157F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A68E3979-C869-4273-9A28-85787F157F2D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

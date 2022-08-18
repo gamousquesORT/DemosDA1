@@ -16,7 +16,7 @@ namespace ejemplosClase
         }
         public Estudiante()
         {
-            _numeroEstudiante += _proximoNumeroEstudiante;
+            _numeroEstudiante = _proximoNumeroEstudiante++;
         }
 
         public long NumeroEstudiante
