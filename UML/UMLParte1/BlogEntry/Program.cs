@@ -10,17 +10,17 @@ namespace ejemplosClase
                 List<BlogEntry> list = new List<BlogEntry>();
 
                 BlogEntry entry = new BlogEntry();
-                entry.PostInfo("Este es un post sobre métodos de clase");
+                entry.PostInfo("Este es un post sobre métodos de instancia");
                 list.Add(entry);
 
                 entry = new BlogEntry();
-                entry.PostInfo("Este TAMBIEN es un post sobre métodos de clase");
+                entry.PostInfo("Este TAMBIEN es un post sobre métodos de instancia");
                 list.Add(entry);
 
                 foreach (BlogEntry listentry in list) 
                     Console.WriteLine("El post dice:" + listentry.ToString());
                 
-                 Console.WriteLine("El atributo de clase tiene valor: " + BlogEntry.getNumberOfPosts());
+                 Console.WriteLine("Este invoca un método de clase que retorna el valor: " + BlogEntry.getNumberOfPosts());
 
         }
     }
