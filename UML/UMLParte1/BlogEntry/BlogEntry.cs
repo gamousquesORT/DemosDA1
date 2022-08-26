@@ -4,33 +4,34 @@ namespace ejemplosClase
 {
     public class BlogEntry
     {
-        private String post = "";
-        private long postID;
-        static private long numberOfPosts = 0;
+        private String _post = "a";
+        private long _postID;
+        private static long _numberOfPosts = 0;
 
         public BlogEntry()
         {
-            postID = numberOfPosts++;
+            _post = "a";
+            _postID = _numberOfPosts++;
         }
-
+    
         public void PostInfo(String entry)
         {
-            post = entry;
+            _post = entry;
         }
 
-        public String postInfoAsText()
+        public String PostInfoAsText()
         {
-            return post;
+            return _post;
         }
 
-        public static long getNumberOfPosts()
+        public static long GetNumberOfPosts()
         {
-            return numberOfPosts;
+            return _numberOfPosts;
         }
 
         public override string ToString() 
         {
-            return this.postInfoAsText();
+            return this.PostInfoAsText();
         }
 
 
@@ -42,7 +43,7 @@ namespace ejemplosClase
             return Equals((BlogEntry)obj);
         }
 
-        public override int GetHashCode() => (post != null ? post.GetHashCode() : 0);
+        public override int GetHashCode() => (_post != null ? _post.GetHashCode() : 0);
 
     }
 }

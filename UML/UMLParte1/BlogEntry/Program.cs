@@ -20,7 +20,7 @@ namespace ejemplosClase
                 foreach (BlogEntry listentry in list) 
                     Console.WriteLine("El post dice:" + listentry.ToString());
                 
-                 Console.WriteLine("Este invoca un método de clase que retorna el valor: " + BlogEntry.getNumberOfPosts());
+                 Console.WriteLine("Este invoca un método de clase que retorna el valor: " + BlogEntry.GetNumberOfPosts());
 
         }
     }

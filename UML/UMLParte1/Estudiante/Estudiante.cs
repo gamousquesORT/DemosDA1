@@ -14,6 +14,7 @@ namespace ejemplosClase
         {
             _proximoNumeroEstudiante = 1;
         }
+
         public Estudiante()
         {
             _numeroEstudiante = _proximoNumeroEstudiante++;
@@ -22,6 +23,11 @@ namespace ejemplosClase
         public long NumeroEstudiante
         {
             get { return _numeroEstudiante; }
+        }
+
+        public static long GetProximoEstudiante()
+        {
+            return _proximoNumeroEstudiante;
         }
 
         public DateTime FechaIngreso
