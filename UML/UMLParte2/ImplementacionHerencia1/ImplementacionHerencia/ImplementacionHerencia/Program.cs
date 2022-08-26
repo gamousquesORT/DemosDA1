@@ -16,7 +16,7 @@ namespace ImplementacionHerencia
             a.Numero = 534123;
             a.Nombre = "gastón";
             Console.WriteLine("El número de estudiantes es {0} y su nombre es: {1}", a.Numero, a.Nombre);
-            Console.WriteLine("El Tostring de almuno retorna - {0}", a.ToString()); // se ejecuta el de ??
+            Console.WriteLine("Los datos del almuno son - {0}",  a.ObtenerDatos()); // se ejecuta el de ??
           
 
             Console.ReadLine();

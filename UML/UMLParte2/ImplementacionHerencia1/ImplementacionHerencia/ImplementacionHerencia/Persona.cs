@@ -5,7 +5,7 @@ namespace ImplementacionHerencia
     public class Persona
     {
         public String Nombre { get; set; }   // donde están los atributos en la clase?
-        public int Numero { get; set; }      // son properties y se pueden escribir así C# esconde el atributo
+        public int Numero { get; set; }      // son properties y se pueden escribir así C# esconde el atributo (auto implemented)
 
 
         public  string ToString()
@@ -18,7 +18,9 @@ namespace ImplementacionHerencia
         // si no está redefinido y se invoca sobre un objeto de la subclase se invoca este
         public String ObtenerDatos()
         {
-            return String.Format("Este es el ObtenerDatos de Persona -({0}) - {1}", Numero, Nombre);
+            return String.Format("--> Se llamó el ObtenerDatos de Persona -({0}) - {1}", Numero, Nombre);
         }
+        
+
     }
 }

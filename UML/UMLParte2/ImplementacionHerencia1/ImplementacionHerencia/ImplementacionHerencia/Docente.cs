@@ -8,7 +8,7 @@ namespace ImplementacionHerencia
 
          public  String ObtenerDatos()
          {
-             return string.Format("Este es el ObtenerDatos de Docente - {0}  -  {1}", base.ObtenerDatos(), FechaIngereso);
+             return string.Format("--> Se llamó el ObtenerDatos de Docente - {0}  -  {1}", base.ObtenerDatos(), FechaIngereso);
          }
     }
 }
