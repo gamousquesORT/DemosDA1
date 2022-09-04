@@ -1,11 +1,10 @@
-using System;
-
 namespace CarData {
     public class GasolineCar : ICarData {
         //
         // aca irian los atribitos del aut0
         //
-
+        private int _cylinders;
+        
         public GasolineCar() 
         {
 
@@ -21,6 +20,13 @@ namespace CarData {
         {
             Random rnd = new Random();
             return rnd.Next(240) * elapsedTime * 0.5f;
+        }
+        
+
+        public int Cylinders
+        {
+            get => _cylinders;
+            set => _cylinders = value;
         }
     }
 

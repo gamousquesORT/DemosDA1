@@ -3,12 +3,12 @@ using System;
 namespace CarData {
     public class ElectricCar : ICarData {
         //
-        // aca irian los atribitos del aut0
+        // aca irian los atribitos del autElectrico
         //
-
-        public ElectricCar() 
+        private string _batteryType; 
+        public ElectricCar()
         {
-
+            _batteryType = "ni cad";
         }
 
         public float AutonomyKm(float distanceCovered)
@@ -22,6 +22,13 @@ namespace CarData {
             Random rnd = new Random(140);
             return rnd.Next(140) * elapsedTime;
         }
+
+        public String BatteryType
+        {
+            set => _batteryType = value;
+            get => _batteryType;
+        }
+
     }
 
 }
