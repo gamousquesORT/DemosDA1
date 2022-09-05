@@ -1,5 +1,5 @@
-namespace CarData {
-    public interface ICarData
+namespace VehicleDomain  {
+    public interface IVehicleData
      {
         float AutonomyKm(float distanceCovered);
         float CurrentSpeed(float elapsedTime);

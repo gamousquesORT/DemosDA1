@@ -1,7 +1,7 @@
 using System;
 
-namespace CarData {
-    public class ElectricCar : ICarData {
+namespace VehicleDomain {
+    public class ElectricCar : IVehicleData {
         //
         // aca irian los atribitos del autElectrico
         //

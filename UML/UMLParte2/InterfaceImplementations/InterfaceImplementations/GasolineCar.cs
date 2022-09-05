@@ -1,5 +1,5 @@
-namespace CarData {
-    public class GasolineCar : ICarData {
+namespace VehicleDomain {
+    public class GasolineCar : IVehicleData {
         //
         // aca irian los atribitos del aut0
         //
