@@ -47,3 +47,4 @@ Desktop.ini
 
 # Built Visual Studio Code Extensions
 **/.vs
+**/globla.json
