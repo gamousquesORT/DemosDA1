@@ -2,12 +2,12 @@ namespace Ejemplos;
 
 public class Commerce
 {
-    public Checkout(Customer customer, float amount)
+    public void Checkout(Customer customer, float amount)
     {
         Wallet wallet = customer.Wallet;
         if (wallet.Money >= amount)
         {
-            wallet.Money -= amount;
+            wallet.DrawMoney(amount);
             Console.WriteLine("Purchase completed");
         }
         else

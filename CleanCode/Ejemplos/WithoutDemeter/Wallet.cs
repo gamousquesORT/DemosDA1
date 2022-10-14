@@ -10,11 +10,11 @@ public class Wallet
         set { _money = value; }
     }
     
-    public AddMoney(float money)
+    public void AddMoney(float money)
     {
         _money += money;
     }
-    public DrawMoney(float money)
+    public void DrawMoney(float money)
     {
         _money -= money;
     }

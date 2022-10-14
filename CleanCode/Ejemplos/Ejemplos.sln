@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demeter", "Demeter\Demeter.csproj", "{5088A08B-9EB9-4929-BFC6-6E1E85936DC1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutDemeter", "WithoutDemeter\WithoutDemeter.csproj", "{5088A08B-9EB9-4929-BFC6-6E1E85936DC1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
