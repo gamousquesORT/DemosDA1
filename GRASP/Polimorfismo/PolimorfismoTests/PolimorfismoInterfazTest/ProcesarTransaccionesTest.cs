@@ -1,6 +1,6 @@
 using System.Reflection.Metadata.Ecma335;
-using Polimorfismo;
-namespace PolimorfismoTest;
+using PolimorfismoInterfaz;
+namespace PolimorfismoInterfazTest;
 
 public class ProcesarTransaccionesTests
 {
@@ -22,10 +22,12 @@ public class ProcesarTransaccionesTests
         Assert.Equal("Prioridad", result);
     }
     
- /*   [Fact]
+/*    [Fact]
     public void ShouldReturnFechadGivenProcesarPorFecha()
     {
-
+        IProcesador pm = new ProcesadorPorFecha();
+        string result = mtp.ProcesarPendientes(pm);
+        Assert.Equal("Fecha", result);
     }
     */
 }

@@ -1,8 +1,8 @@
-namespace Polimorfismo;
+namespace PolimorfismoInterfaz;
 
 public class ProcesadorPorMonto : IProcesador
 {
-    public virtual string Procesar()
+    public string Procesar()
     {
         return "Monto";
     }

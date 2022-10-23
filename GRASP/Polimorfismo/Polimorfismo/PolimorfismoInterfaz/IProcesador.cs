@@ -1,4 +1,4 @@
-namespace Polimorfismo;
+namespace PolimorfismoInterfaz;
 
 public interface IProcesador
 {

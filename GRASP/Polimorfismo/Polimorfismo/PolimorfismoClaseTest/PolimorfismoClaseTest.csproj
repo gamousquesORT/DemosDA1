@@ -6,8 +6,6 @@
         <Nullable>enable</Nullable>
 
         <IsPackable>false</IsPackable>
-
-        <RootNamespace>TestProject1</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
@@ -24,7 +22,7 @@
     </ItemGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\..\Polimorfismo\Polimorfismo\Polimorfismo.csproj" />
+      <ProjectReference Include="..\PolimorfismoClase\PolimorfismoClase.csproj" />
     </ItemGroup>
 
 </Project>
