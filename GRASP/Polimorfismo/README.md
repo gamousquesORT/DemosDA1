@@ -1,5 +1,10 @@
-# Warning - This example is incomplete! 
+# Warning - This example is just that; a small example using polymorphism! 
  
-You need to fix several small steps for it to work using Polymorphism
+You may need to fix some code
+
+build and run PolimorfismoClase project to execute the abstract classes implementation
+
+build and run PolimorfismoInterfaz project to execute the Interfaces implementation  
+
  
 

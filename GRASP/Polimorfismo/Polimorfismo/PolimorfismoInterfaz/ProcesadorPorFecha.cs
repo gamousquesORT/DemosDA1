@@ -1,8 +1,6 @@
 namespace PolimorfismoInterfaz;
 
-// Fix It
-/* 
-public class ProcesadorPorFecha 
+public class ProcesadorPorFecha : IProcesador
 {
  public string Procesar()
    {
@@ -10,4 +8,3 @@ public class ProcesadorPorFecha
    }
 
 }
-   */

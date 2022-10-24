@@ -4,13 +4,12 @@ namespace PolimorfismoInterfazTest;
 
 public class ProcesarTransaccionesTests
 {
-    private ManejardorTransaccionesPendientes mtp = new ManejardorTransaccionesPendientes();
-    
+   
     [Fact]
     public void ShouldReturnMontoGivenProcesarPorMonto()
     {
         IProcesador pm = new ProcesadorPorMonto();
-        string result = mtp.ProcesarPendientes(pm);
+        string result = pm.Procesar();
         Assert.Equal("Monto", result);
     }
     
@@ -18,16 +17,16 @@ public class ProcesarTransaccionesTests
     public void ShouldReturnPrioridadGivenProcesarPorPrioridad()
     {
         IProcesador pm = new ProcesadorPorPrioridad();
-        string result = mtp.ProcesarPendientes(pm);
+        string result = pm.Procesar();
         Assert.Equal("Prioridad", result);
     }
     
-/*    [Fact]
+    [Fact]
     public void ShouldReturnFechadGivenProcesarPorFecha()
     {
         IProcesador pm = new ProcesadorPorFecha();
-        string result = mtp.ProcesarPendientes(pm);
+        string result = pm.Procesar();
         Assert.Equal("Fecha", result);
     }
-    */
+    
 }

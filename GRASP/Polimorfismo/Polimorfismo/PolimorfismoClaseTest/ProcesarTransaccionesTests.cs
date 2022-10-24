@@ -3,13 +3,12 @@ namespace PolimorfismoClaseTest;
 
 public class ProcesarTransaccionesTests
 {
-    private ManejardorTransaccionesPendientes mtp = new ManejardorTransaccionesPendientes();
     
     [Fact]
     public void ShouldReturnMontoGivenProcesarPorMonto()
     {
         Procesador pm = new ProcesadorPorMonto();
-        string result = mtp.ProcesarPendientes(pm);
+        string result = pm.Procesar();
         Assert.Equal("Monto", result);
     }
     
@@ -17,7 +16,7 @@ public class ProcesarTransaccionesTests
     public void ShouldReturnPrioridadGivenProcesarPorPrioridad()
     {
         Procesador pm = new ProcesadorPorPrioridad();
-        string result = mtp.ProcesarPendientes(pm);
+        string result = pm.Procesar();
         Assert.Equal("Prioridad", result);
     }
     
@@ -25,10 +24,8 @@ public class ProcesarTransaccionesTests
        public void ShouldReturnFechadGivenProcesarPorFecha()
        {
            Procesador pm = new ProcesadorPorFecha();
-           Assert.Throws<NotImplementedException>(() => mtp.ProcesarPendientes(pm));
-           
-  //         string result = mtp.ProcesarPendientes(pm);
-  //         Assert.Equal("Fecha", result);
+           string result = pm.Procesar();
+          Assert.Equal("Fecha", result);
        }
        
 }

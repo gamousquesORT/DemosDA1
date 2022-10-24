@@ -4,9 +4,9 @@ using PolimorfismoClase;
 
 List<Procesador> procesadorasPendientes = new List<Procesador>();
 
-procesadorasPendientes.Add(new ProcesadorPorMonto());
-procesadorasPendientes.Add(new ProcesadorPorPrioridad());
-procesadorasPendientes.Add(new ProcesadorPorFecha());
+procesadorasPendientes.Add(Procesador.Create(Procesador.Ordenador.PRIORIDAD));
+procesadorasPendientes.Add(Procesador.Create(Procesador.Ordenador.FECHA));
+procesadorasPendientes.Add(Procesador.Create(Procesador.Ordenador.MONTO));
 
 try
 {

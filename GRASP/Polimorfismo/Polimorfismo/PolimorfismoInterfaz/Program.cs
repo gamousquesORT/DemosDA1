@@ -6,7 +6,7 @@ List<IProcesador> procesadorasPendientes = new List<IProcesador>();
 
 procesadorasPendientes.Add(new ProcesadorPorMonto());
 procesadorasPendientes.Add(new ProcesadorPorPrioridad());
-//procesadorasPendientes.Add(new ProcesadorPorFecha());
+procesadorasPendientes.Add(new ProcesadorPorFecha());
 
 try {
     // Código Polimórfico
