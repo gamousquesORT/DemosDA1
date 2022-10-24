@@ -4,6 +4,7 @@ using PolimorfismoClase;
 
 List<Procesador> procesadorasPendientes = new List<Procesador>();
 
+// se crean las procesadoras utilziando un METODO fábrica
 procesadorasPendientes.Add(Procesador.Create(Procesador.Ordenador.PRIORIDAD));
 procesadorasPendientes.Add(Procesador.Create(Procesador.Ordenador.FECHA));
 procesadorasPendientes.Add(Procesador.Create(Procesador.Ordenador.MONTO));

@@ -2,11 +2,15 @@
 
 using PolimorfismoInterfaz;
 
+// necesito crear una clase fabrica de Procesadoras
+ProcesadoraFactory factory = new ProcesadoraFactory();
+
 List<IProcesador> procesadorasPendientes = new List<IProcesador>();
 
-procesadorasPendientes.Add(new ProcesadorPorMonto());
-procesadorasPendientes.Add(new ProcesadorPorPrioridad());
-procesadorasPendientes.Add(new ProcesadorPorFecha());
+// se crean las instancias de las procesadoras usando la fabrica
+procesadorasPendientes.Add(factory.Create(ProcesadoraFactory.Ordenador.FECHA));
+procesadorasPendientes.Add(factory.Create(ProcesadoraFactory.Ordenador.MONTO));
+procesadorasPendientes.Add(factory.Create(ProcesadoraFactory.Ordenador.PRIORIDAD));
 
 try {
     // Código Polimórfico
