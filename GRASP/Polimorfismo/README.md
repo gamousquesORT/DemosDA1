@@ -2,11 +2,12 @@
  
 You may need to fix some code
 
-build and run PolimorfismoClase project to execute the abstract classes implementation
+build and run PolimorfismoClase project to execute the abstract class implementation
+
 ![Herencia](./Herencia.png?raw=true, "Herencia")
 
 
-build and run PolimorfismoInterfaz project to execute the Interfaces implementation  
+build and run PolimorfismoInterfaz project to execute the Interface implementation  
 ![Interfaz](./Interfaz.png?raw=true, "Interfaz")
  
 
