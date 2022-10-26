@@ -1,13 +1,12 @@
-# Warning - This example is just that; a small example using polymorphism! 
+# Ejemplo utilizando polimorfismo! 
  
-You may need to fix some code
 
-build and run PolimorfismoClase project to execute the abstract class implementation
+Ejemplo con polimorfismo con Clase haga el build and run PolimorfismoClase el proyecto 
 
 ![Herencia](./Herencia.png?raw=true, "Herencia")
 
 
-build and run PolimorfismoInterfaz project to execute the Interface implementation  
+Ejemplo con polimorfismo de Interfaz haga el build and run PolimorfismoInterfaz el proyecto 
 ![Interfaz](./Interfaz.png?raw=true, "Interfaz")
  
 
