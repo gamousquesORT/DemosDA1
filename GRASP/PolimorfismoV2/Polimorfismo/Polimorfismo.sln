@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorfismoInterfaz", "PolimorfismoInterfaz\PolimorfismoInterfaz.csproj", "{74114FB8-47CD-4685-8FF9-EF3B2F3D99D7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorfismoInterfazTest", "..\PolimorfismoTests\PolimorfismoInterfazTest\PolimorfismoInterfazTest.csproj", "{DBE7DC7B-579B-4C92-AC80-FF9D5F1943E4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorfismoClase", "PolimorfismoClase\PolimorfismoClase.csproj", "{4958DD81-7707-4198-A201-CF1496A41575}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PolimorfismoClaseTest", "PolimorfismoClaseTest\PolimorfismoClaseTest.csproj", "{689005AF-0FF8-4E05-BF43-F8CD1F5209A9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{74114FB8-47CD-4685-8FF9-EF3B2F3D99D7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74114FB8-47CD-4685-8FF9-EF3B2F3D99D7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74114FB8-47CD-4685-8FF9-EF3B2F3D99D7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74114FB8-47CD-4685-8FF9-EF3B2F3D99D7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBE7DC7B-579B-4C92-AC80-FF9D5F1943E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBE7DC7B-579B-4C92-AC80-FF9D5F1943E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBE7DC7B-579B-4C92-AC80-FF9D5F1943E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBE7DC7B-579B-4C92-AC80-FF9D5F1943E4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4958DD81-7707-4198-A201-CF1496A41575}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4958DD81-7707-4198-A201-CF1496A41575}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4958DD81-7707-4198-A201-CF1496A41575}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4958DD81-7707-4198-A201-CF1496A41575}.Release|Any CPU.Build.0 = Release|Any CPU
+		{689005AF-0FF8-4E05-BF43-F8CD1F5209A9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{689005AF-0FF8-4E05-BF43-F8CD1F5209A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{689005AF-0FF8-4E05-BF43-F8CD1F5209A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{689005AF-0FF8-4E05-BF43-F8CD1F5209A9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
