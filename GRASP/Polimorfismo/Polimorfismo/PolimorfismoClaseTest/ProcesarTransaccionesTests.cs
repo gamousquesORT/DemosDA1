@@ -1,4 +1,4 @@
-using PolimorfismoClase;
+using PolimorfismoClase.implementation;
 namespace PolimorfismoClaseTest;
 
 public class ProcesarTransaccionesTests

@@ -1,4 +1,4 @@
-namespace PolimorfismoClase;
+namespace PolimorfismoClase.implementation;
 
 //To Fix
 public class ProcesadorPorPrioridad : Procesador

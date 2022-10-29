@@ -1,4 +1,4 @@
-namespace PolimorfismoClase;
+namespace PolimorfismoClase.implementation;
 
 public abstract class Procesador
 {
