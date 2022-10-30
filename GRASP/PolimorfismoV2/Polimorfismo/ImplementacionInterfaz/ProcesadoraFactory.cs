@@ -1,30 +1,22 @@
-namespace PolimorfismoClase.implementation;
+﻿using PolimorfismoInterfaz;
 
-public abstract class Procesador
+namespace ImplementacionInterfaz;
+
+public class ProcesadoraFactory : IProcesadoraFactory
 {
-    public abstract string Procesar();
-
-    public enum Ordenador
+    public  IProcesar Create(IProcesadoraFactory.Ordenador e)
     {
-        FECHA,
-        MONTO,
-        PRIORIDAD
-    };
-
-    
-    public static Procesador Create(Procesador.Ordenador e)
-    {
-        Procesador? retVal  = null;
+        IProcesar? retVal  = null;
         switch (e)
         {
-            case Ordenador.FECHA :
+            case IProcesadoraFactory.Ordenador.FECHA :
                 retVal =  new ProcesadorPorFecha();
                 break;
-            case Ordenador.MONTO:
+            case IProcesadoraFactory.Ordenador.MONTO:
        
                 retVal =  new ProcesadorPorMonto();
                 break;
-            case Ordenador.PRIORIDAD:
+            case IProcesadoraFactory.Ordenador.PRIORIDAD:
        
                 retVal =  new ProcesadorPorPrioridad();
                 break;

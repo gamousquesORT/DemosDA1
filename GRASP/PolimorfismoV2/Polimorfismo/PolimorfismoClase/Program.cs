@@ -1,7 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using PolimorfismoClase;
-using PolimorfismoClase.implementation;
+using ImplementationClase;
 
 List<Procesador> procesadorasPendientes = new List<Procesador>();
 

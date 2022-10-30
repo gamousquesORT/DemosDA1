@@ -1,6 +1,6 @@
 namespace PolimorfismoInterfaz;
 
-public interface IProcesador
+public interface IProcesar
 {
     string Procesar();
 }

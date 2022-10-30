@@ -1,4 +1,4 @@
-namespace PolimorfismoClase.implementation;
+namespace ImplementationClase;
 
 //To Fix
 public class ProcesadorPorFecha : Procesador

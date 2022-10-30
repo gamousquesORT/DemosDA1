@@ -8,7 +8,8 @@
     </PropertyGroup>
 
     <ItemGroup>
-      <ProjectReference Include="..\ImplementationClase\ImplementationClase.csproj" />
+      <ProjectReference Include="..\ImplementacionInterfaz\ImplementacionInterfaz.csproj" />
+      <ProjectReference Include="..\PolimorfismoInterfaz\PolimorfismoInterfaz.csproj" />
     </ItemGroup>
 
 </Project>

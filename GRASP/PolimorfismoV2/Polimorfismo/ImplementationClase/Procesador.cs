@@ -1,8 +1,9 @@
-﻿namespace PolimorfismoInterfaz;
+namespace ImplementationClase;
 
-public class ProcesadoraFactory
+public abstract class Procesador
 {
-    
+    public abstract string Procesar();
+
     public enum Ordenador
     {
         FECHA,
@@ -11,9 +12,9 @@ public class ProcesadoraFactory
     };
 
     
-    public  IProcesador Create(ProcesadoraFactory.Ordenador e)
+    public static Procesador Create(Procesador.Ordenador e)
     {
-        IProcesador? retVal  = null;
+        Procesador? retVal  = null;
         switch (e)
         {
             case Ordenador.FECHA :

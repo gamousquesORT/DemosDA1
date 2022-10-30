@@ -1,4 +1,5 @@
-using PolimorfismoClase.implementation;
+using ImplementationClase;
+
 namespace PolimorfismoClase;
 
 

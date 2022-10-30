@@ -1,10 +1,10 @@
-namespace PolimorfismoClase.implementation;
+namespace ImplementationClase;
 
 //To Fix
 public class ProcesadorPorMonto : Procesador
 {
     public override string Procesar()
     {
-        return "Monto";
+        return "MOnto";
     }
 }
