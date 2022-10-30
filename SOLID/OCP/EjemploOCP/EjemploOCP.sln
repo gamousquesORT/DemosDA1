@@ -1,0 +1,16 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploOCP", "EjemploOCP\EjemploOCP.csproj", "{CFF0D038-17F9-4E0B-AA64-56B4B237EDC1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFF0D038-17F9-4E0B-AA64-56B4B237EDC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFF0D038-17F9-4E0B-AA64-56B4B237EDC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFF0D038-17F9-4E0B-AA64-56B4B237EDC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFF0D038-17F9-4E0B-AA64-56B4B237EDC1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
