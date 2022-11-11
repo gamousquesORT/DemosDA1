@@ -7,18 +7,16 @@ namespace SingletonClassic
     {
         static void Main(string[] args)
         {
-            MyAppController ctrlOne = MyAppController.GetInstance();
+            MyAppController ctrlOne = MyAppController.GetInstance(); 
             UserDTO dto = new UserDTO();
             dto.Name = "gaston";
             dto.ID = "1111111.1";
             ctrlOne.AddUser(dto);
-     
             
-            
-            MyAppController ctrlTwo = MyAppController.Instance; //uso el métod alternativo al Get
+            MyAppController ctrlTwo = MyAppController.Instance; //uso el método alternativo al GetInstance
             
             if (ctrlOne == ctrlTwo )
-                Console.WriteLine("Si es igual, no importa cuantas veces llame a GetInstance() siemprep va a devolver lo mismo");
+                Console.WriteLine("Sí, es igual. No importa cuantas veces llame a GetInstance() siempre va a devolver lo mismo");
  
             dto = new UserDTO();
             dto.Name = "María";
