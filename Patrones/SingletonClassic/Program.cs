@@ -1,4 +1,5 @@
 ﻿using System;
+using SingletonClassic.DTO;
 
 namespace SingletonClassic
 {
@@ -6,14 +7,23 @@ namespace SingletonClassic
     {
         static void Main(string[] args)
         {
-            Database db1 = Database.GetInstance();
-            db1.DataBaseName = "BD de Gaston";
-            Console.WriteLine("Nombre Base de Datos {0}", db1.DataBaseName);
+            MyAppController ctrlOne = MyAppController.GetInstance();
+            UserDTO dto = new UserDTO();
+            dto.Name = "gaston";
+            dto.ID = "1111111.1";
+            ctrlOne.AddUser(dto);
+     
             
             
-            Database db2 = Database.GetInstance();
-            db2.DataBaseName = "BD de Maria";
-            Console.WriteLine("Nombre Base de Datos {0}", db2.DataBaseName);
+            MyAppController ctrlTwo = MyAppController.Instance; //uso el métod alternativo al Get
+            
+            if (ctrlOne == ctrlTwo )
+                Console.WriteLine("Si es igual, no importa cuantas veces llame a GetInstance() siemprep va a devolver lo mismo");
+ 
+            dto = new UserDTO();
+            dto.Name = "María";
+            dto.ID = "2111111.1";
+            ctrlTwo.AddUser(dto);
         }
     }
 }
