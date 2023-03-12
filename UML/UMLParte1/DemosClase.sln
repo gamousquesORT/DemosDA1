@@ -14,6 +14,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CountryCapital", "CountryCa
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Copilot", "Copilot\Copilot.csproj", "{D7F1CA39-62C3-430B-A3C3-66A2DB297C78}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogEntryReviewRel", "BlogEntryReviewRel\BlogEntryReviewRel.csproj", "{F8BE361E-48AD-43AA-AABA-45BDEE05D1F3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -48,5 +50,9 @@ Global
 		{D7F1CA39-62C3-430B-A3C3-66A2DB297C78}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D7F1CA39-62C3-430B-A3C3-66A2DB297C78}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D7F1CA39-62C3-430B-A3C3-66A2DB297C78}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8BE361E-48AD-43AA-AABA-45BDEE05D1F3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8BE361E-48AD-43AA-AABA-45BDEE05D1F3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8BE361E-48AD-43AA-AABA-45BDEE05D1F3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8BE361E-48AD-43AA-AABA-45BDEE05D1F3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal

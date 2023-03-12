@@ -38,7 +38,7 @@ namespace ejemplosClase
         public string Nombre
         {
             get => _nombre;
-            set => _nombre = value ?? throw new ArgumentNullException(nameof(value));
+            set => _nombre = value ?? throw new ArgumentNullException(nameof(value)); //esto es un if para probar si es null
         }
     }
 }

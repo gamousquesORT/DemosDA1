@@ -14,15 +14,12 @@ namespace ejemplosClase
             _postID = _numberOfPosts++;
         }
     
-        public void PostInfo(String entry)
+        public string Post
         {
-            _post = entry;
+            get => _post;
+            set => _post = value;
         }
 
-        public String PostInfoAsText()
-        {
-            return _post;
-        }
 
         public static long GetNumberOfPosts()
         {
@@ -31,7 +28,7 @@ namespace ejemplosClase
 
         public override string ToString() 
         {
-            return this.PostInfoAsText();
+            return this.Post;
         }
 
 
