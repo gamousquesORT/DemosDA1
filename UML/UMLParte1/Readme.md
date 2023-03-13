@@ -3,7 +3,7 @@
 
 En esta solución se encuentran los siguientes proyectos:   
 
-**Static** - muestra como se implementan métodos y atributos de clase para una Clase Socio  
+**Static** - muestra como se usan e implementan métodos y atributos **de clase** para una Clase Socio  
 
 **DemosClaseUMIgualdad** - muestra la diferencia entre la identidad y la igualdad por valor
 
@@ -18,4 +18,5 @@ En esta solución se encuentran los siguientes proyectos:
 
 **CountryCapital** - muestra un ejemplo de implementación de asociación bi direccional (1 a 1) entre clases
 ![CountryCapital](./imagenes/CountryCapital.png)
+
 
