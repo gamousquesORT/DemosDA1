@@ -13,5 +13,9 @@ En esta solución se encuentran los siguientes proyectos:
 **BlogEntry** - muestra el uso de propiedades, redefine el método Equals() y ToString()
 ![BlogEntry](./imagenes/BlogEntry.png)
 
-**BlogEntryReviewRel** - muestra la implementación de asociación entre clases  
+**BlogEntryReviewRel** - muestra la implementación de asociación direccional (1 a *) entre clases  
 ![BlogEntryReviewRel](./imagenes/BlogEntryReviewRel.png)
+
+**CountryCapital** - muestra un ejemplo de implementación de asociación bi direccional (1 a 1) entre clases
+![CountryCapital](./imagenes/CountryCapital.png)
+
