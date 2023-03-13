@@ -2,26 +2,21 @@ namespace BlogEntryReviewRel;
 
 public class BlogEntry
 {
-    private String _post = "a";
-    private long _postID;
-    private static long _numberOfPosts = 0;
+    private static long _numberOfPosts;
+    private readonly long _postID;
 
     public BlogEntry()
     {
-        _post = "a";
+        Post = "a";
         _postID = _numberOfPosts++;
     }
-    
-    public string Post
-    {
-        get => _post;
-        set => _post = value;
-    }
-    
 
-    public override string ToString() 
+    public string Post { get; set; } = "a";
+
+
+    public override string ToString()
     {
-        return this.Post;
+        return Post;
     }
 
     public bool Equals(BlogEntry? other)
@@ -35,7 +30,7 @@ public class BlogEntry
     {
         if (ReferenceEquals(null, obj)) return false;
         if (ReferenceEquals(this, obj)) return true;
-        if (obj.GetType() != this.GetType()) return false;
+        if (obj.GetType() != GetType()) return false;
         return Equals((BlogEntry) obj);
     }
 
@@ -54,4 +49,3 @@ public class BlogEntry
         return !Equals(left, right);
     }
 }
-

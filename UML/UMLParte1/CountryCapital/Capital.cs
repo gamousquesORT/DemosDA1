@@ -1,29 +1,21 @@
-﻿namespace ejemplosClase
+﻿namespace ejemplosClase;
+
+public class Capital
 {
-    public class Capital
+    private Country country;
+
+    public Capital(Country country, string cityName)
     {
-        private Country country;
-        private string cityName;
+        this.Name = cityName;
+        this.country = country;
+    }
 
-        public Capital(Country country, string cityName)
-        {
-            this.cityName = cityName;
-            this.country = country     ;
-        }
+    public string Name { get; }
 
-        public string Name
-        {
-            get { return cityName; }
-        }
+    public string CountryName => country.Name;
 
-        public string CountryName
-        {
-            get { return country.Name; }
-        }
-        
-        public void setCountry(Country country)
-        {
-            this.country = country;
-        }
+    public void setCountry(Country country)
+    {
+        this.country = country;
     }
 }

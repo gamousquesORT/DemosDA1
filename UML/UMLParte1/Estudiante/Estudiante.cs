@@ -1,44 +1,34 @@
 using System;
-using System.Net.Sockets;
 
-namespace ejemplosClase
+namespace ejemplosClase;
+
+public class Estudiante
 {
-    public class Estudiante
+    private static long _proximoNumeroEstudiante;
+    private string _nombre;
+
+    static Estudiante()
     {
-        private long _numeroEstudiante;
-        private string _nombre;
-        private DateTime _fechaIngreso;
-        private static long _proximoNumeroEstudiante = 0;
+        _proximoNumeroEstudiante = 1;
+    }
 
-        static Estudiante()
-        {
-            _proximoNumeroEstudiante = 1;
-        }
+    public Estudiante()
+    {
+        NumeroEstudiante = _proximoNumeroEstudiante++;
+    }
 
-        public Estudiante()
-        {
-            _numeroEstudiante = _proximoNumeroEstudiante++;
-        }
+    public long NumeroEstudiante { get; }
 
-        public long NumeroEstudiante
-        {
-            get { return _numeroEstudiante; }
-        }
+    public DateTime FechaIngreso { set; get; }
 
-        public static long GetProximoEstudiante()
-        {
-            return _proximoNumeroEstudiante;
-        }
+    public string Nombre
+    {
+        get => _nombre;
+        set => _nombre = value ?? throw new ArgumentNullException(nameof(value)); //esto es un if para probar si es null
+    }
 
-        public DateTime FechaIngreso
-        {
-            set { _fechaIngreso = value; }
-            get { return _fechaIngreso; }
-        }
-        public string Nombre
-        {
-            get => _nombre;
-            set => _nombre = value ?? throw new ArgumentNullException(nameof(value)); //esto es un if para probar si es null
-        }
+    public static long GetProximoEstudiante()
+    {
+        return _proximoNumeroEstudiante;
     }
 }

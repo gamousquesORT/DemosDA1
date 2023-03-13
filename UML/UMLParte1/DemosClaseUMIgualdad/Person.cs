@@ -1,36 +1,28 @@
 using System;
+
 namespace DemosClase;
 
 public class Person
 {
     private const int MaxCi = 11;
-    private string _name;
     private string _ci;
+
+    public Person(string name)
+    {
+        Name = name ?? throw new ArgumentNullException(nameof(name));
+    }
 
     public string CI
     {
         set
         {
-            if (value.Length != MaxCi)
-            {
-                throw new ArgumentException("CI debe tener 11 caracteres");
-            }
+            if (value.Length != MaxCi) throw new ArgumentException("CI debe tener 11 caracteres");
             _ci = value;
         }
-        get { return _ci;}
+        get => _ci;
     }
 
-    public Person(string name)
-    {
-        _name = name ?? throw new ArgumentNullException(nameof(name));
-    }
-
-    public string Name
-    {
-        get => _name;
-        set => _name = value;
-    }
-        
+    public string Name { get; set; }
 }
 
 /*

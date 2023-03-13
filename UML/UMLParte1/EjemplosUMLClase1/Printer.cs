@@ -1,7 +1,8 @@
-﻿namespace ejemplosClase
+﻿namespace ejemplosClase;
+
+public class Printer
 {
-    public class Printer
+    public void print()
     {
-        public void print() {}
     }
 }

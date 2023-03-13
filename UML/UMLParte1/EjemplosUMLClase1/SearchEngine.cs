@@ -1,12 +1,9 @@
-﻿using System;
+﻿namespace ejemplosClase;
 
-namespace ejemplosClase
+public class SearchEngine
 {
-    public class SearchEngine
+    public void searchUsingController(SearchController controller, string search)
     {
-        public void searchUsingController(SearchController controller, String search)
-        {
-            String result = controller.search(search);
-        }
+        var result = controller.search(search);
     }
 }

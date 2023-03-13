@@ -1,19 +1,18 @@
 ﻿using System;
 
-namespace DemosClase
+namespace DemosClase;
+
+internal class Program
 {
-    class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Person personA = new Person("Gastón");
+        var personA = new Person("Gastón");
 
-            Person personB = new Person("Gastón");
+        var personB = new Person("Gastón");
 
-            
-            Console.WriteLine( (personA == personB)); //??
-            Console.WriteLine( personA.Name == personB.Name); //
-        }
+
+        Console.WriteLine(personA == personB); //??
+        Console.WriteLine(personA.Name == personB.Name); //
     }
 }
 //            Console.WriteLine( personA.Equals(personB)); //??

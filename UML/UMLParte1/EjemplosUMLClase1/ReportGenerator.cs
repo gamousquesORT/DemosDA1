@@ -1,12 +1,11 @@
-﻿namespace ejemplosClase
+﻿namespace ejemplosClase;
+
+public class ReportGenerator
 {
-    public class ReportGenerator
+    //.....
+    public void print()
     {
-        //.....
-        public void print()
-        {
-            Printer printer = new Printer();
-            printer.print();
-        }
+        var printer = new Printer();
+        printer.print();
     }
 }

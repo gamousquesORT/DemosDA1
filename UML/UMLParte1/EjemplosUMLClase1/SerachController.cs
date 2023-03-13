@@ -1,12 +1,9 @@
-﻿using System;
+﻿namespace ejemplosClase;
 
-namespace ejemplosClase
+public class SearchController
 {
-    public class SearchController
+    public string search(string searchText)
     {
-        public String search(string searchText)
-        {
-            return "hola";
-        }
+        return "hola";
     }
 }

@@ -1,81 +1,68 @@
 ﻿using System;
 
-namespace Static
+namespace Static;
+
+internal class Program
 {
-    class Program
+    private static void Main(string[] args)
     {
-        static void Main(string[] args)
-        {
-            Socio socio1 = new Socio(" Maria", "12345");
-            Socio socio2 = new Socio(" Gaston", " 34567");
-            Console.WriteLine("Nombre socio {0} - {1} - {2}", socio1.GetId(), socio1.Nombre, socio1.Ci);
-            Console.WriteLine("Nombre socio {0} - {1} - {2}", socio2.GetId(), socio2.Nombre, socio2.Ci);
-            Console.WriteLine("acceso desde instanica a atributo clase {0}", socio1.AccesoAtributoOrdinalSocios());
-            Console.WriteLine("acceso desde método de instancia a método clase {0}", socio1.AccesoMétodoNuevoSocio());
-        }
+        var socio1 = new Socio(" Maria", "12345");
+        var socio2 = new Socio(" Gaston", " 34567");
+        Console.WriteLine("Nombre socio {0} - {1} - {2}", socio1.GetId(), socio1.Nombre, socio1.Ci);
+        Console.WriteLine("Nombre socio {0} - {1} - {2}", socio2.GetId(), socio2.Nombre, socio2.Ci);
+        Console.WriteLine("acceso desde instanica a atributo clase {0}", socio1.AccesoAtributoOrdinalSocios());
+        Console.WriteLine("acceso desde método de instancia a método clase {0}", socio1.AccesoMétodoNuevoSocio());
+    }
+}
+
+public class Socio
+{
+    private static long ordinalSocios;
+
+    //atributos de instancia
+    private readonly long id;
+
+    static Socio() // se invoa automatcamente previo a la creación de la primera instancia
+    {
+        ordinalSocios = 0;
     }
 
-    public class Socio
+    public Socio()
     {
-        //atributos de instancia
-        private long id;
-        private String nombre;
-        private String ci;
-        private float saldo;
-        private static long ordinalSocios;
-
-        static Socio()   // se invoa automatcamente previo a la creación de la primera instancia
-        {
-            ordinalSocios = 0;
-        }
-
-        public Socio()
-        {
-            this.saldo = 0;
-            this.id = NuevoSocio();
-        }
-        public Socio(String nom, String ci) : this()
-        {
-            this.nombre = nom;
-            this.ci = ci;
-        }
-        
-        public string Nombre
-        {
-            get => nombre;
-            set => nombre = value;
-        }
-
-        public string Ci
-        {
-            get => ci;
-            set => ci = value;
-        }
-
-        public float Saldo
-        {
-            get => saldo;
-            set => saldo = value;
-        }
-
-        public long GetId()
-        {
-            return this.id;
-        }
-        private static long NuevoSocio()
-        {
-            return ++ordinalSocios;
-        }
-
-        public long AccesoAtributoOrdinalSocios()
-        {
-            return ++ordinalSocios;
-        }
-        
-        public long AccesoMétodoNuevoSocio()
-        {
-            return NuevoSocio();
-        }
-        // otros métodos
+        Saldo = 0;
+        id = NuevoSocio();
     }
+
+    public Socio(string nom, string ci) : this()
+    {
+        Nombre = nom;
+        this.Ci = ci;
+    }
+
+    public string Nombre { get; set; }
+
+    public string Ci { get; set; }
+
+    public float Saldo { get; set; }
+
+    public long GetId()
+    {
+        return id;
+    }
+
+    private static long NuevoSocio()
+    {
+        return ++ordinalSocios;
+    }
+
+    public long AccesoAtributoOrdinalSocios()
+    {
+        return ++ordinalSocios;
+    }
+
+    public long AccesoMétodoNuevoSocio()
+    {
+        return NuevoSocio();
+    }
+    // otros métodos
 }
