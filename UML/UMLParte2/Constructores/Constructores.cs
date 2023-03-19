@@ -23,24 +23,25 @@ namespace EjemploConstructores
         }
     }
 
-    public class Funcionario : Persona {
-        private long _numeroFuncionario;
+    public class Empleado : Persona {
+        private long _numeroEmpleado;
 
-        public Funcionario() {
-            _numeroFuncionario = -1; // init en -1 por defecto
+        public Empleado() {
+            _numeroEmpleado = -1; // init en -1 por defecto
         }
 
-        public Funcionario(string ci, string nombre, long numeroFunc) 
+        // qué pasa si no se llama al constructor de la clase base? cómo queda inicializado el objeto?
+        public Empleado(string ci, string nombre, long numeroFunc) 
         : base(ci, nombre)
         {
-            _numeroFuncionario = numeroFunc;
+            _numeroEmpleado = numeroFunc;
         }
 
-        public long NumeroFunicionario {get => _numeroFuncionario;}
+        public long NumeroEmpleadoNumero {get => _numeroEmpleado;}
 
         public override string ToString()
         {
-            return base.ToString() + String.Format(" - NumeroFuncionario:= {0}", _numeroFuncionario);
+            return base.ToString() + String.Format(" - NumeroFuncionario:= {0}", _numeroEmpleado);
         }
     }
 }

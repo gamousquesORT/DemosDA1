@@ -8,7 +8,7 @@ namespace VehicleUI {
         {
             IVehicleData ecar = new ElectricCar();
             IVehicleData fcar = new GasolineCar();
-            IVehicleData robot = new Robot();
+           // IVehicleData robot = new Robot();
             
             //ecar.BatteryType = "lithium-ion";
             //fcar.Cylinders = 8;
@@ -17,7 +17,7 @@ namespace VehicleUI {
 
             Console.WriteLine("Nafta --> Consumo= {0:F} LTs. Velocidad= {1:F} Km/h\n\n", fcar.AutonomyKm(2), fcar.CurrentSpeed(2));
             
-            Console.WriteLine("Robot --> Consumo= {0:F} Watts. Velocidad= {1:F} Km/h\n\n", robot.AutonomyKm(2), robot.CurrentSpeed(2));
+ //           Console.WriteLine("Robot --> Consumo= {0:F} Watts. Velocidad= {1:F} Km/h\n\n", robot.AutonomyKm(2), robot.CurrentSpeed(2));
 
             ElectricCar anotherEcar = new ElectricCar();
             anotherEcar.BatteryType = "lithium-ion";

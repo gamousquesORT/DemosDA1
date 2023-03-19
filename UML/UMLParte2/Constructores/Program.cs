@@ -16,13 +16,13 @@ namespace EjemploConstructores
             Console.ReadLine();
 
             Console.WriteLine("3- Creo un funcionario SIN argumentos");
-            Funcionario funcionario = new Funcionario();
-            Console.WriteLine(funcionario.ToString()+"\n");
+            Empleado empleado = new Empleado();
+            Console.WriteLine(empleado.ToString()+"\n");
             Console.ReadLine();
 
             Console.WriteLine("4- Creo un funcionario CON argumentos");
-            funcionario = new Funcionario("6.342.123-0", "María Casas", 34567);
-            Console.WriteLine(funcionario.ToString()+"\n");
+            empleado = new Empleado("6.342.123-0", "María Casas", 34567);
+            Console.WriteLine(empleado.ToString()+"\n");
             Console.ReadLine();
         }
     }
