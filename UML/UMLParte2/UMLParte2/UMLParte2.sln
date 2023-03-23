@@ -8,11 +8,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploPolimorfismo", "..\E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generalizacion", "..\Generalizacion\Generalizacion\Generalizacion.csproj", "{F9D63E45-C5DF-4ED2-8FDD-C7058AF0CCA0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacionHerencia", "..\ImplementacionHerencia1\ImplementacionHerencia\ImplementacionHerencia\ImplementacionHerencia.csproj", "{5F755E12-88FA-47AC-93E6-C07FF7BB51B2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacionHerencia1", "..\ImplementacionHerencia1\ImplementacionHerencia\ImplementacionHerencia1\ImplementacionHerencia1.csproj", "{5F755E12-88FA-47AC-93E6-C07FF7BB51B2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceImplementations", "..\InterfaceImplementations\InterfaceImplementations\InterfaceImplementations.csproj", "{72ED21F6-A2DF-4F3F-926A-6AB0D63758D1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacionHerencia", "..\ImplementacionHerencia2\ImplementacionHerencia\ImplementacionHerencia\ImplementacionHerencia.csproj", "{D075B32C-AE15-451C-A076-87A5FB5A55E3}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacionHerencia2", "..\ImplementacionHerencia2\ImplementacionHerencia\ImplementacionHerencia2\ImplementacionHerencia2.csproj", "{D075B32C-AE15-451C-A076-87A5FB5A55E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaz", "..\Interfaz\Interfaz\Interfaz\Interfaz.csproj", "{CCC37A51-1ED8-4470-B901-7E7B36419240}"
 EndProject

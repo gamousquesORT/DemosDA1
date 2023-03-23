@@ -1,8 +1,8 @@
 ## UML parte 2 - Herencia, polimorfismo e interfaces
 ### Breve descrpción de los siguientes proyectos en la solución:
 
-**Generalizacion** - Este ejemplo muestra una clase Persona y una clase Estudiante. En el main se muestran distintos tipo de enlaces dinamicos y estáticos.
-
+**Generalizacion** - Este ejemplo muestra una clase Persona y una clase Estudiante. En el main se muestran distintos tipo de enlaces dinamicos y estáticos.  
+[Código fuente](./Generalizacion)
 ![Generalizacion](./imagenes/generalizacion.png)
     
 Ejercicio asociado: 02.26 Ejercicio 1 _ Herencia basica
@@ -42,8 +42,8 @@ b)  Para cada bloque (1 a 4) del método mail identifique el método de qué cla
 ```
 
 ___
-**Constructores** - Este ejemplo muestra el orden de construcción en una relación de generalización.
-
+**Constructores** - Este ejemplo muestra el orden de construcción en una relación de generalización.  
+[Código fuente](./Constructores)
 ![Generalizacion](./imagenes/constructores.png)
 
 Ejercicio asociado: 02.26 Constructores y orden de construcción
@@ -59,7 +59,7 @@ Ejercicio asociado: 02.26 Constructores y orden de construcción
 
 ___
 
-**ImplementacionHerencia** - Este ejemplo presenta varias subclases y en los comentarios se encuentran preguntas que ayudan a comprender al funcionamiento del orden de contrucción y el uso de virtual y override
+**ImplementacionHerencia 1 y 2** - Este ejemplo presenta varias subclases y en los comentarios se encuentran preguntas que ayudan a comprender al funcionamiento del orden de contrucción y el uso de virtual y override
 lea el código de main y de las clases Docente, alumno y persona.
 
 ![ImplementacionHerencia](./imagenes/llamadasuper.png)

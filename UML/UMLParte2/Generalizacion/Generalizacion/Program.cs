@@ -21,10 +21,10 @@ namespace Generalizacion
             // hay algun error?
 
             Console.WriteLine("--------(2)-----------\n");
-            Persona alumnoDos = new Estudiante();
+            Persona alumnoDos = new Estudiante(); //No Compila porque será?
             alumnoDos.Nombre = "Alumno dos";
             alumnoDos.Cedula = "3344558-0";
-           // alumnoDos.NumeroEstudiante = 159345;
+            alumnoDos.NumeroEstudiante = 159345;
             Console.WriteLine(alumnoDos.ToString() + " \n");            
 
             Console.ReadLine();
