@@ -1,5 +1,10 @@
 ﻿using System;
 
+//***********
+// Tener en cuenta que el código de Program NO compila. Hay un error que es necesario arreglarlo. El mismo se dejó
+// para que ud. demuestre que comprende la herencia  
+//***********
+
 namespace Generalizacion
 {
     class Program
@@ -24,7 +29,7 @@ namespace Generalizacion
             Persona alumnoDos = new Estudiante(); //No Compila porque será?
             alumnoDos.Nombre = "Alumno dos";
             alumnoDos.Cedula = "3344558-0";
-            alumnoDos.NumeroEstudiante = 159345;
+            //alumnoDos.NumeroEstudiante = 159345;
             Console.WriteLine(alumnoDos.ToString() + " \n");            
 
             Console.ReadLine();

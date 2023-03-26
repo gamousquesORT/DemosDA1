@@ -2,10 +2,15 @@
 ### Breve descrpción de los siguientes proyectos en la solución:
 
 **Generalizacion** - Este ejemplo muestra una clase Persona y una clase Estudiante. En el main se muestran distintos tipo de enlaces dinamicos y estáticos.  
-[Código fuente](./Generalizacion)
+[Código fuente](./Generalizacion)  
+
+**Tener en cuenta que el código de Program no compila. Hay un error que es necesario arreglarlo. El mismo, se dejó con errores para que ud. demuestre que comprende la herencia**  
+
+
 ![Generalizacion](./imagenes/generalizacion.png)
     
 Ejercicio asociado: 02.26 Ejercicio 1 _ Herencia basica
+
 
 ```
 b)  Para cada bloque (1 a 4) del método mail identifique el método de qué clase se invoca.
@@ -68,3 +73,10 @@ Ejercicio asociado: 02.30 Ejercicio 2 _ Herencia basica
 
 ___
 
+## Interfaces
+Los siguientes ejemplos muestran el uso de interfaces y polimorfismo.
+**Interfaz** - Este ejemplo muestra el uso de una interfaz ICalculator y cómo una clase la implementa.  
+[Código fuente](./Interfaz)
+
+**Shape** - Este ejemplo muestra el uso de una interfaz IShape y cómo las clases Circle y Rectangle la implementan. Se le ocurre como podria esvribir el mismo código solo utilizando Generalización?  
+[Código fuente](./Shape)
