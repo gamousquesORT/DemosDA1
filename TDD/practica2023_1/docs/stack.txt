@@ -1,0 +1,21 @@
+/*
+ * Requerimientos
+ *  ver si esta vacío
+ *  Agregar elementos 
+ *  Sacar elementos
+ *  Saber la cantidad de elementos que tiene
+ *
+ * Casos de prueba
+        1.	Caso de prueba vacío
+        2.	Crear un stack
+        3.	Verificar que esta vacío
+        4.	Verificar que luego de push no es vacío
+        5.	Verificar que luego de un Push y un Pop esta vacío
+        6.	Verificar que luego de dos push el tamaño es 2
+        7.	En el caso 5 verificar si el size es 0
+        8.	Agregar el assert de vació en todos los casos que tienen
+        9.	Verificar que lance Excepción de underflow cuando se haga pop de un stack vacío
+        10.	Verificar que luego de push de dos números hace pop de los dos números y queda vacío
+        11.	Verificar que se puedan hacer push de  N números y el size sea N
+        12. Verificar que si se supera el tamaño por defecto se lanza una excepción
+ */
