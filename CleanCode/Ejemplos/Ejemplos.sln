@@ -4,6 +4,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithoutDemeter", "WithoutDe
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithDemeter", "WithDemeter\WithDemeter.csproj", "{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorCleanCode", "RefactorCleanCode\RefactorCleanCode.csproj", "{9DA0D00B-7230-4835-99A0-9C168735AF9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoredToCleanCode", "RefactoredToCleanCode\RefactoredToCleanCode.csproj", "{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +22,13 @@ Global
 		{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
