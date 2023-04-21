@@ -1,4 +1,9 @@
 ﻿using RefactoredToCleanCode;
+
+// this is one posible solution after refactoring and applying:
+// Extract class
+// extract method
+
 public class Program
 {
     public static void Main(string[] args)

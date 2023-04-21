@@ -1,7 +1,4 @@
-﻿
-// After demo copy RefactorCleanCodeSource to start over
-// to test this code use RefactorCleanCodeTest
-public class Program
+﻿public class Program
 {
     public static void Main(string[] args)
     {
@@ -20,10 +17,7 @@ public class Program
             string verb;
             string pluralModifier;
 
-            if (count < 0)
-            {
-                throw new ArgumentException("Count cannot be negative");
-            } else if (count == 0)
+            if (count == 0)
             {
                 number = "no";
                 verb = "are";

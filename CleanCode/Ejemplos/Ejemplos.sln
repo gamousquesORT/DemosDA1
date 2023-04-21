@@ -8,6 +8,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorCleanCode", "Refact
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoredToCleanCode", "RefactoredToCleanCode\RefactoredToCleanCode.csproj", "{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorCleanCodeTests", "RefactorCleanCodeTests\RefactorCleanCodeTests.csproj", "{29662C3F-B1FE-487A-A706-00AEF66FB505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorCleanCodeSource", "RefactorCleanCodeSource\RefactorCleanCodeSource.csproj", "{F688DAE3-C6B5-456B-8540-62B970442062}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F688DAE3-C6B5-456B-8540-62B970442062}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F688DAE3-C6B5-456B-8540-62B970442062}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F688DAE3-C6B5-456B-8540-62B970442062}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F688DAE3-C6B5-456B-8540-62B970442062}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
