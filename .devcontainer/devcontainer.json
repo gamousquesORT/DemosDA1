@@ -53,7 +53,8 @@
 		"ghcr.io/devcontainers-contrib/features/etcd:1": {},
 		"ghcr.io/devcontainers-contrib/features/json-server:1": {},
 		"ghcr.io/devcontainers-contrib/features/rabbitmq-asdf:1": {},
-		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {}
+		"ghcr.io/devcontainers-contrib/features/zsh-plugins:0": {},
+		"ghcr.io/devcontainers/features/sshd:1": {"version": "latest"}
 	}
 
 	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
