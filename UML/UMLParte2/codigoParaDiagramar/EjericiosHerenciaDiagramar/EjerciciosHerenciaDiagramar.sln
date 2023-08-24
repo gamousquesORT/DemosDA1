@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioPolimorfismoES", "EjercicioPolimorfismoES\EjercicioPolimorfismoES.csproj", "{85E64432-D158-4EE7-93DF-92807F696892}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjercicioPolimorfismoED", "EjercicioPolimorfismoED\EjercicioPolimorfismoED.csproj", "{B8CBBF71-0A1E-4C76-BCF1-0CBF4E9471EE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{85E64432-D158-4EE7-93DF-92807F696892}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{85E64432-D158-4EE7-93DF-92807F696892}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{85E64432-D158-4EE7-93DF-92807F696892}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{85E64432-D158-4EE7-93DF-92807F696892}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8CBBF71-0A1E-4C76-BCF1-0CBF4E9471EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8CBBF71-0A1E-4C76-BCF1-0CBF4E9471EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8CBBF71-0A1E-4C76-BCF1-0CBF4E9471EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8CBBF71-0A1E-4C76-BCF1-0CBF4E9471EE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
