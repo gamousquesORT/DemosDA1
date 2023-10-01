@@ -2,8 +2,8 @@
 
 using Ejemplos;
 
-Commerce commerce = new Commerce();
+Store store = new Store();
 Customer customer = new Customer();
 Wallet w = customer.Wallet;
 w.Money = 100;
-commerce.Checkout(customer, 110);
+store.Checkout(customer, 110);
