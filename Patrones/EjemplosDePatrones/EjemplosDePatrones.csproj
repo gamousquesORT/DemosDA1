@@ -8,7 +8,7 @@
     <OutputType>Exe</OutputType>
     <RootNamespace>EjemplosDePatrones</RootNamespace>
     <AssemblyName>EjemplosDePatrones</AssemblyName>
-        <TargetFramework>net6.0</TargetFramework>
+        <TargetFramework>net7.0</TargetFramework>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
@@ -43,9 +43,6 @@
     <Compile Include="EjemploTemplateMethod.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="App.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
