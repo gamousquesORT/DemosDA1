@@ -1,13 +1,12 @@
-﻿## UML PArte 1 
+﻿## UML Parte 1 
 ### Clases y relaciones. Implementacion en C# y Diagramas  
 
 En esta solución se encuentran los siguientes proyectos:   
 
-**Static** - muestra como se usan e implementan métodos y atributos **de clase** para una Clase Socio  
+**StaticClient** - muestra como se usan e implementan métodos y atributos **de clase** para una Clase Socio  
 
-**DemosClaseUMIgualdad** - muestra la diferencia entre la identidad y la igualdad por valor
+**Estudiante** - muestra como se implementan métodos y atributos de instancia y de clase, y propiedades. Tambien muestra la diferencia entre igualdad e identidad.
 
-**Estudiante** - muestra como se implementan métodos y atributos de instancia y de clase, y propiedades
 ![Estudiante](./imagenes/Estudiante.png)
 
 **BlogEntry** - muestra el uso de propiedades, redefine el método Equals() y ToString()

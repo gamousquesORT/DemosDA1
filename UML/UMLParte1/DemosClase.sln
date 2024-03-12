@@ -1,10 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DemosClaseUMIgualdad", "DemosClaseUMIgualdad\DemosClaseUMIgualdad.csproj", "{663A89AF-63CA-4DC8-A6F2-017DC7263215}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Static", "Static\Static.csproj", "{A9E9C88B-3160-44F0-A379-17F0F42B8A2F}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemplosUMLClase1", "EjemplosUMLClase1\EjemplosUMLClase1.csproj", "{6CE492CD-5D1C-49FF-9CC2-92F631334D85}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StaticClient", "StaticClient\StaticClient.csproj", "{A9E9C88B-3160-44F0-A379-17F0F42B8A2F}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Estudiante", "Estudiante\Estudiante.csproj", "{A68E3979-C869-4273-9A28-85787F157F2D}"
 EndProject
@@ -22,18 +18,10 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{663A89AF-63CA-4DC8-A6F2-017DC7263215}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{663A89AF-63CA-4DC8-A6F2-017DC7263215}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{663A89AF-63CA-4DC8-A6F2-017DC7263215}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{663A89AF-63CA-4DC8-A6F2-017DC7263215}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A9E9C88B-3160-44F0-A379-17F0F42B8A2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A9E9C88B-3160-44F0-A379-17F0F42B8A2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A9E9C88B-3160-44F0-A379-17F0F42B8A2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A9E9C88B-3160-44F0-A379-17F0F42B8A2F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{6CE492CD-5D1C-49FF-9CC2-92F631334D85}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{6CE492CD-5D1C-49FF-9CC2-92F631334D85}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{6CE492CD-5D1C-49FF-9CC2-92F631334D85}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{6CE492CD-5D1C-49FF-9CC2-92F631334D85}.Release|Any CPU.Build.0 = Release|Any CPU
 		{A68E3979-C869-4273-9A28-85787F157F2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{A68E3979-C869-4273-9A28-85787F157F2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A68E3979-C869-4273-9A28-85787F157F2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
