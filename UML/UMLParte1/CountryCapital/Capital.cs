@@ -2,20 +2,20 @@
 
 public class Capital
 {
-    private Country country;
+    private Country _country;
 
     public Capital(Country country, string cityName)
     {
         this.Name = cityName;
-        this.country = country;
+        this._country = country;
     }
 
     public string Name { get; }
 
-    public string CountryName => country.Name;
+    public string CountryName => _country.Name;
 
-    public void setCountry(Country country)
+    public void SetCountry(Country country)
     {
-        this.country = country;
+        this._country = country;
     }
 }

@@ -3,12 +3,12 @@ namespace BlogEntryReviewRel;
 public class BlogEntry
 {
     private static long _numberOfPosts;
-    private readonly long _postID;
+    private readonly long _postId;
 
     public BlogEntry()
     {
         Post = "a";
-        _postID = _numberOfPosts++;
+        _postId = _numberOfPosts++;
     }
 
     public string Post { get; set; } = "a";
@@ -23,7 +23,7 @@ public class BlogEntry
     {
         if (ReferenceEquals(null, other)) return false;
         if (ReferenceEquals(this, other)) return true;
-        return _postID == other._postID;
+        return _postId == other._postId;
     }
 
     public override bool Equals(object? obj)
@@ -36,7 +36,7 @@ public class BlogEntry
 
     public override int GetHashCode()
     {
-        return _postID.GetHashCode();
+        return _postId.GetHashCode();
     }
 
     public static bool operator ==(BlogEntry? left, BlogEntry? right)

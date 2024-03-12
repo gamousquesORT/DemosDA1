@@ -2,24 +2,30 @@ namespace BlogEntryReviewRel;
 
 public class Reviewer
 {
-    private readonly List<BlogEntry> blogEntries = new();
+    private readonly List<BlogEntry> _blogEntries = new List<BlogEntry>();
+    private int _reviewerId;
 
-    // la multiplicidad 0 .. *
+    // la multiplicidad es?
 
     public Reviewer(string reviwerName)
     {
         this.ReviewerName = reviwerName;
     }
 
+    public int ReviewerId
+    {
+        set { _reviewerId = value; }
+        get { return _reviewerId; }
+    }
     public string ReviewerName { get; set; }
 
     public void AddBlogEntry(BlogEntry blogEntry)
     {
-        blogEntries.Add(blogEntry);
+        _blogEntries.Add(blogEntry);
     }
 
     public List<BlogEntry> BlogsToReview()
     {
-        return blogEntries;
+        return _blogEntries;
     }
 }
