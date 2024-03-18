@@ -1,18 +1,10 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Constructores", "..\Constructores\Constructores.csproj", "{BE14FD14-7299-4DAF-A58F-9E1DB2E32EC9}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploHerencia", "..\EjemploHerencia\EjemploHerencia\EjemploHerencia.csproj", "{F242885A-9D84-47FD-A44D-B2AD21B5C4B4}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EjemploPolimorfismo", "..\EjemploPolimorfismo\EjemploPolimorfismo\EjemploPolimorfismo.csproj", "{127A4A9B-CFC3-456B-8557-0558CACA8AEC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Generalizacion", "..\Generalizacion\Generalizacion\Generalizacion.csproj", "{F9D63E45-C5DF-4ED2-8FDD-C7058AF0CCA0}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacionHerencia1", "..\ImplementacionHerencia1\ImplementacionHerencia\ImplementacionHerencia1\ImplementacionHerencia1.csproj", "{5F755E12-88FA-47AC-93E6-C07FF7BB51B2}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfaceImplementations", "..\InterfaceImplementations\InterfaceImplementations\InterfaceImplementations.csproj", "{72ED21F6-A2DF-4F3F-926A-6AB0D63758D1}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImplementacionHerencia2", "..\ImplementacionHerencia2\ImplementacionHerencia\ImplementacionHerencia2\ImplementacionHerencia2.csproj", "{D075B32C-AE15-451C-A076-87A5FB5A55E3}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interfaz", "..\Interfaz\Interfaz\Interfaz\Interfaz.csproj", "{CCC37A51-1ED8-4470-B901-7E7B36419240}"
 EndProject
@@ -26,10 +18,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{BE14FD14-7299-4DAF-A58F-9E1DB2E32EC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{BE14FD14-7299-4DAF-A58F-9E1DB2E32EC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{BE14FD14-7299-4DAF-A58F-9E1DB2E32EC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{BE14FD14-7299-4DAF-A58F-9E1DB2E32EC9}.Release|Any CPU.Build.0 = Release|Any CPU
 		{F242885A-9D84-47FD-A44D-B2AD21B5C4B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F242885A-9D84-47FD-A44D-B2AD21B5C4B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F242885A-9D84-47FD-A44D-B2AD21B5C4B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -38,22 +26,10 @@ Global
 		{127A4A9B-CFC3-456B-8557-0558CACA8AEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{127A4A9B-CFC3-456B-8557-0558CACA8AEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{127A4A9B-CFC3-456B-8557-0558CACA8AEC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F9D63E45-C5DF-4ED2-8FDD-C7058AF0CCA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F9D63E45-C5DF-4ED2-8FDD-C7058AF0CCA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F9D63E45-C5DF-4ED2-8FDD-C7058AF0CCA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F9D63E45-C5DF-4ED2-8FDD-C7058AF0CCA0}.Release|Any CPU.Build.0 = Release|Any CPU
-		{5F755E12-88FA-47AC-93E6-C07FF7BB51B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{5F755E12-88FA-47AC-93E6-C07FF7BB51B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{5F755E12-88FA-47AC-93E6-C07FF7BB51B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{5F755E12-88FA-47AC-93E6-C07FF7BB51B2}.Release|Any CPU.Build.0 = Release|Any CPU
 		{72ED21F6-A2DF-4F3F-926A-6AB0D63758D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{72ED21F6-A2DF-4F3F-926A-6AB0D63758D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{72ED21F6-A2DF-4F3F-926A-6AB0D63758D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{72ED21F6-A2DF-4F3F-926A-6AB0D63758D1}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D075B32C-AE15-451C-A076-87A5FB5A55E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D075B32C-AE15-451C-A076-87A5FB5A55E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D075B32C-AE15-451C-A076-87A5FB5A55E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D075B32C-AE15-451C-A076-87A5FB5A55E3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{CCC37A51-1ED8-4470-B901-7E7B36419240}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{CCC37A51-1ED8-4470-B901-7E7B36419240}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CCC37A51-1ED8-4470-B901-7E7B36419240}.Release|Any CPU.ActiveCfg = Release|Any CPU

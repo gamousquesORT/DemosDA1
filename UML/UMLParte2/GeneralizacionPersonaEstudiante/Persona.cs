@@ -12,13 +12,11 @@ namespace Generalizacion
             nombre = "sin asignar";
             cedula = "sin asignar";      
         }
-
         public Persona(string nombre, string cedula)
         {
             this.nombre = nombre;
             this.cedula = cedula;
         }
-
         public String Nombre
         {
             get { return nombre; }

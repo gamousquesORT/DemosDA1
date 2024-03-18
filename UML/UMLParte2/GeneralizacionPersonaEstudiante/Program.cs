@@ -1,4 +1,4 @@
-﻿using System;
+﻿
 
 //***********
 // Tener en cuenta que el código de Program NO compila. Hay un error que es necesario arreglarlo. El mismo se dejó
@@ -12,13 +12,13 @@ namespace Generalizacion
         static void Main(string[] args)
         {
             Console.WriteLine("--------(1)-----------\n");
-            // El estudiante qué hereda de persona? 
+            // Estudiante qué hereda de persona? 
             // que es propio de la clase Estudiante?
-            Estudiante alumno = new Estudiante();
-            alumno.Nombre = "Gaston";
-            alumno.Cedula = "123456778=2";
-            alumno.NumeroEstudiante = 159345;
-            Console.WriteLine(alumno.ToString() + " \n");
+            Estudiante alumnoUno = new Estudiante();
+            alumnoUno.Nombre = "Gaston";
+            alumnoUno.Cedula = "123456778=2";
+            alumnoUno.NumeroEstudiante = 159345;
+            Console.WriteLine(alumnoUno.ToString() + " \n");
             Console.ReadLine();
             
             // notar el Tipo de la variable alumno 
