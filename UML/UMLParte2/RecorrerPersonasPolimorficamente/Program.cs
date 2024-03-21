@@ -6,32 +6,44 @@ namespace ImplementacionHerencia
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("-------------(1)--------------");
-            // Qué método se invoca en cada caso que sigue?
+            List<Persona> personas = new List<Persona>();
+            
+            CrearPersonas(personas);
+            ListarPersonas(personas);
+            
+        }
+
+        private static void CrearPersonas(List<Persona> personas)
+        {
             Alumno alumno = new Alumno();
             alumno.Numero = 534123;
             alumno.Nombre = "gastón";
-            Console.WriteLine("Obtener Datos de: {0}", alumno.ObtenerDatos());
-
-            Console.ReadLine();
+            personas.Add(alumno);
             
-            Console.WriteLine("-------------(2)--------------");
             Docente docente = new Docente();
             docente.Nombre = "Maria";
             docente.Numero = 12345;
             docente.FechaIngereso = DateTime.Today;
+            personas.Add(docente);
             
-            // Qué método se invoca en cada caso que sigue?
-            Console.WriteLine("Obtener Datos de: {0} ", docente.ObtenerDatos());
+            // solo para mostrar otra forma de inicializar
+            docente = new Docente{Nombre = "Jose Enrique Rodo", Numero = 12345, FechaIngereso = DateTime.Today};
+            personas.Add(docente);
             
-            Console.ReadLine();
-            
-            Console.WriteLine("-------------(3)--------------");
-            
-            // se puede hacer esto? qué método se invoca?
-            Persona otraPersona = docente;
-            Console.WriteLine("Obtener Datos de otra persona (el docente) son {0} ", otraPersona.ObtenerDatos());
-
+            alumno = new Alumno{Nombre = "Jimena Diaz", Numero = 54321};
+            personas.Add(alumno);
         }
+        
+        
+        private static void ListarPersonas(List<Persona> personas)
+        {
+            int index = 1;
+            foreach (Persona p in personas)
+            {
+                index++;
+                Console.WriteLine("{0} -> {1}", index, p.ObtenerDatos());
+            }
+        }
+
     }
 }

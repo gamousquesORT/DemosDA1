@@ -4,9 +4,9 @@ namespace ImplementacionHerencia
 {
     public class Alumno : Persona  // luego de los : viene la superclase
     {
-        public override String ObtenerDatos()
+        public  String ObtenerDatos()
         {
-            return String.Format(" Alumno ({0}) - {1}", Numero, Nombre);
+            return String.Format("Alumno ({0}) {1}", Numero, Nombre);
         }
     }
 }

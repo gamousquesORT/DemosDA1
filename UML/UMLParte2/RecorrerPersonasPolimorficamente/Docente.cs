@@ -6,9 +6,9 @@ namespace ImplementacionHerencia
     {
          public DateTime FechaIngereso { get; set; }
 
-         public override String ObtenerDatos()
+         public  String ObtenerDatos()
          {
-             return string.Format("  {0} -  y que ingresó: {1}", base.ObtenerDatos(), FechaIngereso);
+             return string.Format("Docente ({0}) - {1} - Ingresó el {2}", Numero, Nombre, FechaIngereso);
          }
     }
 }
