@@ -1,13 +1,9 @@
-namespace Shape;
+namespace Drawings;
 
 using System;
 
-interface IShape
-{
-    double GetArea();
-}
 
-class Rectangle : IShape
+class Rectangle : IDrawingElement
 {
     private double length;
     private double width;
@@ -22,9 +18,14 @@ class Rectangle : IShape
     {
         return length * width;
     }
+    
+    public void Draw()
+    {
+        Console.WriteLine("Drawing a rectangle");
+    }
 }
 
-class Circle : IShape
+class Circle : IDrawingElement
 {
     private double radius;
 
@@ -37,5 +38,11 @@ class Circle : IShape
     {
         return Math.PI * radius * radius;
     }
+ 
+    public void Draw()
+    {
+        Console.WriteLine("Drawing a circle");
+    }
 }
+
 
