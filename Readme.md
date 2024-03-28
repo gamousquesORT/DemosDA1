@@ -6,3 +6,5 @@ Cada carpeta o subcarpeta contiene un archivo README.md con la explicación del 
 Esto es un trabajo en progreso. Si desea colaborar, por favor, hágalo. Siéntase libre de hacer un fork y enviar un pull request.
 Si encuentra algún error, por favor, abra un issue.
 
+[licencia](LICENSE.md)
+
