@@ -1,4 +1,9 @@
 ﻿using System;
+//
+// ATENCION:  Intente encontrar porque al llamar a ListarPersonas se lista la información de Persona y no la de 
+// Alumno o Docente??
+// Corregir el código para que se liste la información de Alumno y Docente
+//
 
 namespace ImplementacionHerencia
 {
