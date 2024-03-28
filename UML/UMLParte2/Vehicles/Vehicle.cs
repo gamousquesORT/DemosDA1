@@ -38,6 +38,7 @@ public class Vehicle
         Console.WriteLine("The vehicle is running");
     }
 
+    // Código Generado por el Rider
     protected bool Equals(Vehicle other)
     {
         return _id == other._id;

@@ -1,82 +1,73 @@
 ## UML parte 2 - Herencia, polimorfismo e interfaces
-### Breve descrpción de los siguientes proyectos en la solución:
+### Breve descripción de los siguientes proyectos en la solución:
 
-**Generalizacion** - Este ejemplo muestra una clase Persona y una clase Estudiante. En el main se muestran distintos tipo de enlaces dinamicos y estáticos.  
-[Código fuente](./Generalizacion)  
+**Generalización Persona**
 
-**Tener en cuenta que el código de Program no compila. Hay un error que es necesario arreglarlo. El mismo, se dejó con errores para que ud. demuestre que comprende la herencia**  
+Este ejemplo muestra una clase Persona y una clase Estudiante.
+En el main se muestran distintos ejemplos de tipos de enlaces (dinámicos y estáticos).
 
+__Tener en cuenta que el código de Program puede no funcionar bien (ver warnings). Hay un problema que es necesario arreglar.
+El mismo se dejó con errores para que Ud. demuestre que comprende la herencia.__
 
-![Generalizacion](./imagenes/generalizacion.png)
-    
-Ejercicio asociado: 02.26 Ejercicio 1 _ Herencia basica
+[Código fuente](./GeneralizacionPersonaEstudiante)
 
+Diagrama de clases correspondiente:
 
-```
-b)  Para cada bloque (1 a 4) del método mail identifique el método de qué clase se invoca.
-  class Program     {
-        static void Main(string[] args)        {
-            Console.WriteLine("--------(1)-----------\n");
-            // El estudiante qué hereda de persona? 
-            // que es propio de la clase Estudiante?
-            Estudiante alumno = new Estudiante();
-            alumno.Nombre = "Gaston";
-            alumno.Cedula = "123456778=2";
-            alumno.NumeroEstudiante = 159345;
-            Console.WriteLine(alumno.ToString() + " \n");
-            Console.ReadLine();
-            
-            Console.WriteLine("--------(2)-----------\n");
-            Persona alumnoDos = new Estudiante();
-            alumnoDos.Nombre = "Alumno dos";
-            alumnoDos.Cedula = "3344558-0";
-            alumnoDos.NumeroEstudiante = 159345;
-            Console.WriteLine(alumnoDos.ToString() + " \n");            
-            Console.ReadLine();
-            
-           Console.WriteLine("--------(3)-----------\n");
-            Estudiante alumnoTres = new Estudiante("Marta", "4.333.221-2", 250345);
-            Console.WriteLine(alumnoTres.ToString()+ " \n");
-            Console.WriteLine("--------(4)-----------\n");
-            // Qué métodos se llaman en este caso?
-            String nombre = "una Persona", ci = "4.543.2345-1";
-            Persona unaPersona = new Persona(nombre, ci);
-            Console.WriteLine(unaPersona.ToString()+ " \n");           
-        }
-    }
-```
+![Generalización](./imagenes/PersonaEstudiante.png)
 
-___
-**Constructores** - Este ejemplo muestra el orden de construcción en una relación de generalización.  
-[Código fuente](./Constructores)
-![Generalizacion](./imagenes/constructores.png)
+**RecorrrerPersonasPolimorficamente**
 
-Ejercicio asociado: 02.26 Constructores y orden de construcción
+Este ejemplo presenta  que ayudan a comprender al funcionamiento del orden de construcción y el uso de virtual y override
+lea el código de main y de las clases Docente, Alumno y Persona.
 
-```
-        // qué pasa si no se llama al constructor de la clase base? cómo queda inicializado el objeto?
-        public Empleado(string ci, string nombre, long numeroFunc) 
-        : base(ci, nombre)
-        {
-            _numeroEmpleado = numeroFunc;
-        }
-```
+__Tener en cuenta que el código de Program puede no funcionar bien (ver warnings).
+Hay un problema que es necesario arreglar.
+El mismo se dejó con errores para que Ud. demuestre que comprende la herencia.__
 
+[Código fuente](./RecorrerPersonasPolimorficamente)
+
+Diagrama de clases correspondiente:
+
+![Recorrer Polimórficamente](imagenes/RecorrerPersonas.png)
+
+**Vehicles**
+Este ejemplo muestra el uso de herencia para representar Vehículos.
+
+__Al igual que los anteriores ejemplos
+revise si funciona correctamente listando la información que el main de la clase Program muestra.__
+
+[Código fuente](./Vehicles)
+
+Diagrama de clases correspondiente:
+
+![Herencia de Vehiculos](imagenes/Vehicles.png)
 ___
 
-**ImplementacionHerencia 1 y 2** - Este ejemplo presenta varias subclases y en los comentarios se encuentran preguntas que ayudan a comprender al funcionamiento del orden de contrucción y el uso de virtual y override
-lea el código de main y de las clases Docente, alumno y persona.
+## Interfaces vs. Herencia
+Los siguientes dos ejemplos muestran el uso de interfaces y polimorfismo.
+Es importante notar que en uno de los ejemplos ShapesUsingInheritance no es posible (conceptualmente)
+hacer que el Toy herede de la clase Shape. Por eso se utiliza una interfaz en el ejemplo ShapesUsingInterface.
 
-![ImplementacionHerencia](./imagenes/llamadasuper.png)
 
-Ejercicio asociado: 02.30 Ejercicio 2 _ Herencia basica
+**ShapeUsingInterface**
+Este ejemplo muestra la utilización de una interfaz IDrawingElement y cómo las clases Circle, Rectangle y Toy la implementan.
+Vea cómo se crean los objetos de cada tipo y cómo se los trata polimórficamente cuando se los
+agrega a una lista de IDrawingElement.  __El Toy__ que no es una figura geométrica igual puede ser dibujado.
 
-___
+[Código fuente](./ShapesUsingInterface)
 
-## Interfaces
-Los siguientes ejemplos muestran el uso de interfaces y polimorfismo.
-**Interfaz** - Este ejemplo muestra el uso de una interfaz ICalculator y cómo una clase la implementa.  
-[Código fuente](./Interfaz)
+Diagrama de clases correspondiente:
 
-**Shape** - Este ejemplo muestra el uso de una interfaz IShape y cómo las clases Circle y Rectangle la implementan. Se le ocurre como podria esvribir el mismo código solo utilizando Generalización?  
-[Código fuente](./Shape)
+![Interfaz y IDrawinElement](imagenes/IDrawingInterface.png)
+
+Tener en cuenta que este otro diagrama también muestra la interfaz, pero en formato Lollypop
+
+![Lollypop](imagenes/InterfaceLollypop.png)
+
+**ShapeUsingInheritance**
+Finalmente, este ejemplo muestra el mismo concepto pero utilizando herencia. Es importante ver que, en este caso, el Toy no se podría agregar a la lista de Shapes.
+
+[Código fuente](./ShapesUsingInheritance)
+
+## Colabore para mejorar ##
+Si encuentra algún error, falta ortografica o tiene alguna sugerencia, por favor, hágamelo saber ingresando un issue [Issues](https://github.com/gamousquesORT/DemosDA1/issues).
