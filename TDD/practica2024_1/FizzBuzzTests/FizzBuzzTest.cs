@@ -14,6 +14,7 @@ namespace FizzBuzzTests;
         Buzz si el número es divisible por 5
         FizzBuzzLogic si el número es divisible por 3 y 5
         Si el número no es divisible por 3 ni 5 retorna el número
+        Si el número es negativo lance una excepción 
  *
  * DEfinir tests
  *      1. Se llama a la funcion para ver que no exista la clase y todo funciona
