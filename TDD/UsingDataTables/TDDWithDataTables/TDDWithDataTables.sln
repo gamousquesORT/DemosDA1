@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepoDomain", "DepoDomain\DepoDomain.csproj", "{F6B1868E-0600-4D16-A75D-4BBDE658E7FD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DepoDomainTests", "DepoDomainTests\DepoDomainTests.csproj", "{35E3B06B-FCBB-44E8-B790-1FB13CE91C0C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F6B1868E-0600-4D16-A75D-4BBDE658E7FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F6B1868E-0600-4D16-A75D-4BBDE658E7FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F6B1868E-0600-4D16-A75D-4BBDE658E7FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F6B1868E-0600-4D16-A75D-4BBDE658E7FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{35E3B06B-FCBB-44E8-B790-1FB13CE91C0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{35E3B06B-FCBB-44E8-B790-1FB13CE91C0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{35E3B06B-FCBB-44E8-B790-1FB13CE91C0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{35E3B06B-FCBB-44E8-B790-1FB13CE91C0C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
