@@ -18,5 +18,5 @@ Tenga en cuenta que __verificar el texto__ de una excepción __no es una buena p
 
 **AVISO: El código de producción aun no esta Refactoreado, ya que al escribirlo seguí la recomendación de ir creando el arnés de prueba para poder refactorear con seguridad.**
 
-Es una buen ejercicio de refactorización para el lector.
+Es un buen ejercicio de refactorización para el lector.
 
