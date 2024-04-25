@@ -1,6 +1,6 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using Ejemplos;
+using WalletAppDomain;
 
 Store store = new Store();
 Customer customer = new Customer();

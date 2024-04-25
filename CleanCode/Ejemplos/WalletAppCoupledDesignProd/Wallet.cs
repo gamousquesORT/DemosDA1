@@ -1,4 +1,4 @@
-namespace Ejemplos;
+namespace WalletAppDomain;
 
 public class Wallet
 {
@@ -10,12 +10,14 @@ public class Wallet
         set { _money = value; }
     }
     
-    public void AddMoney(decimal money)
+    public decimal AddMoney(decimal money)
     {
         _money += money;
+        return _money;
     }
-    public void DrawMoney(decimal money)
+    public decimal DrawMoney(decimal money)
     {
         _money -= money;
+        return _money;
     }
 }

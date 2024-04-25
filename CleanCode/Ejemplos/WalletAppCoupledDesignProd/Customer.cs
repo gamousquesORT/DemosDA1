@@ -1,4 +1,4 @@
-namespace Ejemplos;
+namespace WalletAppDomain;
 
 public class Customer
 {
