@@ -1,4 +1,4 @@
-﻿namespace RefactoredToCleanCode;
+﻿namespace RefactoredToCleanCodeProduction;
 public class GuessStatisticsMessage
 {      
     private string? _number;
@@ -7,11 +7,11 @@ public class GuessStatisticsMessage
     
     public string Make(char candidate, int count)
     {
-        this.CreatePluralDenpendentMessageParts(count);
+        this.CreatePluralDependentMessageParts(count);
         return $"There {_verb} {_number} {candidate}{_pluralModifier}";
     }
     
-    public void CreatePluralDenpendentMessageParts(int count)
+    public void CreatePluralDependentMessageParts(int count)
     {
         if (count == 0)
         {
@@ -26,13 +26,13 @@ public class GuessStatisticsMessage
     
     }
 
-    private void ThereAreManyLetters(int count)
+    private void ThereAreNoLetters()
     {
-        _number = count.ToString();
+        _number = "no";
         _verb = "are";
         _pluralModifier = "s";
     }
-
+    
     private void ThereIsOneLetter()
     {
         _number = "1";
@@ -40,9 +40,9 @@ public class GuessStatisticsMessage
         _pluralModifier = "";
     }
 
-    private void ThereAreNoLetters()
+    private void ThereAreManyLetters(int count)
     {
-        _number = "no";
+        _number = count.ToString();
         _verb = "are";
         _pluralModifier = "s";
     }

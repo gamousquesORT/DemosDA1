@@ -1,37 +1,45 @@
+using ConsoleApp1;
 using Microsoft.VisualStudio.TestPlatform.TestHost;
 
 namespace RefactorCleanCodeTests;
 
 public class RefactorCleanCodeTests
 {
-    [Fact]
-    public void ShoudReturnThereAreNoAsGivenCountCeroAnd_A()
+    private GuessLetters _gl;
+    public void TestSetUp()
     {
-
-        string result = Program.GetGuessStatistics('A', 0);
+        _gl = new GuessLetters();
+    }
+    
+    [Fact]
+    public void ShouldReturnThereAreNoAsGivenCountCeroAnd_A()
+    {
+        TestSetUp();
+        string result = _gl.GetGuessStatistics('A', 0);
         Assert.Equal("There are no As", result);
     }
     
     [Fact]
-    public void ShoudReturnThereIsOnAsGivenCountOfOneAnd_A()
+    public void ShouldReturnThereIsOnAsGivenCountOfOneAnd_A()
     {
-
-        string result = Program.GetGuessStatistics('A', 1);
+        TestSetUp();
+        string result = _gl.GetGuessStatistics('A', 1);
         Assert.Equal("There is 1 A", result);
     }
     
     [Fact]
-    public void ShoudReturnThereAreFiveCsGivenCountOfFiveAnd_C()
+    public void ShouldReturnThereAreFiveCsGivenCountOfFiveAnd_C()
     {
-
-        string result = Program.GetGuessStatistics('C', 5);
+        TestSetUp();
+        string result = _gl.GetGuessStatistics('C', 5);
         Assert.Equal("There are 5 Cs", result);
     }
     
     [Fact]
-    public void ShoudReturnExceptionGivenNegativeCountAnd_A()
+    public void ShouldReturnExceptionGivenNegativeCountAnd_A()
     {
-        Assert.Throws<ArgumentException>(() => Program.GetGuessStatistics('A', -5));
+        TestSetUp();
+        Assert.Throws<ArgumentException>(() => _gl.GetGuessStatistics('A', -5));
     }
     
 }
