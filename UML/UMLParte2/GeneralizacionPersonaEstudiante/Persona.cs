@@ -4,29 +4,29 @@ namespace Generalizacion
 {
     public class Persona
     {
-        private string nombre;
-        private string cedula;
+        private string _nombre;
+        private string _cedula;
 
         public Persona()
         {
-            nombre = "sin asignar";
-            cedula = "sin asignar";      
+            _nombre = "sin asignar";
+            _cedula = "sin asignar";      
         }
         public Persona(string nombre, string cedula)
         {
-            this.nombre = nombre;
-            this.cedula = cedula;
+            this._nombre = nombre;
+            this._cedula = cedula;
         }
         public String Nombre
         {
-            get { return nombre; }
-            set { nombre = value; }
+            get { return _nombre; }
+            set { _nombre = value; }
 
         }
         public String Cedula
         {
-            get { return cedula;}
-            set { cedula = value; }
+            get { return _cedula;}
+            set { _cedula = value; }
         }
         public override string ToString()
         {

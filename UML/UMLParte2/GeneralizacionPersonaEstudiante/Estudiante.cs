@@ -2,22 +2,22 @@ namespace Generalizacion
 {
     public class Estudiante : Persona
     {
-        private int numeroEstudiante;
+        private int _numeroEstudiante;
 
         public Estudiante(string nombre, string cedula, int numeroEstudiante) : base(nombre, cedula)
         {
-            this.numeroEstudiante = numeroEstudiante;
+            this._numeroEstudiante = numeroEstudiante;
         }
 
         public Estudiante()
         {
-            numeroEstudiante = 0;
+            _numeroEstudiante = 0;
         }
 
         public int NumeroEstudiante
         {
-            set { numeroEstudiante = value;}
-            get { return numeroEstudiante; }
+            set { _numeroEstudiante = value;}
+            get { return _numeroEstudiante; }
         }
        
         // Notar que dice override! porqué será?

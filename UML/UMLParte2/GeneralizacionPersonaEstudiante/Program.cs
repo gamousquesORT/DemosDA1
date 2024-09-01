@@ -16,7 +16,7 @@ namespace Generalizacion
             // que es propio de la clase Estudiante?
             Estudiante alumnoUno = new Estudiante();
             alumnoUno.Nombre = "Gaston";
-            alumnoUno.Cedula = "123456778=2";
+            alumnoUno.Cedula = "12345677-2";
             alumnoUno.NumeroEstudiante = 159345;
             Console.WriteLine(alumnoUno.ToString() + " \n");
             Console.ReadLine();
@@ -31,7 +31,6 @@ namespace Generalizacion
             alumnoDos.Cedula = "3344558-0";
             //alumnoDos.NumeroEstudiante = 159345;
             Console.WriteLine(alumnoDos.ToString() + " \n");            
-
             Console.ReadLine();
 
             Console.WriteLine("--------(3)-----------\n");
