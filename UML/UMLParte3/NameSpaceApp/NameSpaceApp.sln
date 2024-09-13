@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSpaceAppUI", "NameSpaceAppUI\NameSpaceAppUI.csproj", "{2CBFBEB1-B7DE-4F1E-9452-3AD05583204E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NameSpaceAppBackEnd", "NameSpaceAppBackEnd\NameSpaceAppBackEnd.csproj", "{3843FAF4-B35E-4079-B5B7-21262DE5CA76}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2CBFBEB1-B7DE-4F1E-9452-3AD05583204E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2CBFBEB1-B7DE-4F1E-9452-3AD05583204E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2CBFBEB1-B7DE-4F1E-9452-3AD05583204E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2CBFBEB1-B7DE-4F1E-9452-3AD05583204E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3843FAF4-B35E-4079-B5B7-21262DE5CA76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3843FAF4-B35E-4079-B5B7-21262DE5CA76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3843FAF4-B35E-4079-B5B7-21262DE5CA76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3843FAF4-B35E-4079-B5B7-21262DE5CA76}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
