@@ -1,0 +1,180 @@
+/*
+ *
+ * Estructura de los test
+        Arrange
+        Act
+        Assert
+ *
+ * Reglas FizzBuzzLogic
+ * Crear una  que tenga un método que dado un número retorne:
+        Fizz si el número es divisible por 3
+        Buzz si el número es divisible por 5
+        FizzBuzz si el número es divisible por 3 y 5
+        Si el número no es divisible por 3 ni 5 retorna el número
+        Si el número es negativo  retorna un error
+ *
+ * Definir tests
+ *      1. Se llama a la funcion para ver que no exista la clase 
+ *      2. Se pasa un número divisible por 3 y retorna Fizz
+ *         Se pasa un 3 => Fizz
+ *      3. Se pasa un número divisible por 5 y retorna Buzz
+ *          Se pasa un 5 => Buzz 
+ *      4. se pasa un numero divisble por 3 y 5 y retorna FizzBuzz
+ *          se pasa 15 => FizzBuzz
+ *      5. Se pasa un número no divisble por 3 y retorna el numero como string
+ *        Se pasa un 6 => Fizz
+ *        Se pasa un 10 => Fizz
+ *        Se pasa un 30 => FizzBuzz
+ *      6. se pasa un número negativo y retorna excepción
+ *      7. se pasa un número mayor que 100 retorna una excepción
+ *
+ */ 
+
+
+---
+using FizzBuzzApp;
+[TestClass]
+public class FizzFuzzTests
+{
+    [TestMethod]
+    public void GivenInputIs_3_ThenReturnsFizz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "Fizz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(3));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_6_ThenReturnsFizz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "Fizz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(6));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_5_ThenReturnsBuzz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "Buzz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(5));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_10_ThenReturnsBuzz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "Buzz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(10));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_15_ThenReturnsFizzBuzz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "FizzBuzz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(15));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_30_ThenReturnsFIzzBuzz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "FizzBuzz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(30));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_0_ThenReturnsFIzzBuzz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "FizzBuzz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(0));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_1_ThenReturns_1()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "1";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(1));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_2_ThenReturns_2()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "2";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(2));
+    }
+    
+    [TestMethod]
+    public void GivenAnInputOf_100_ThenReturns_Buzz()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        string expected = "Buzz";
+        Assert.AreEqual(expected, sut.ConvertToFizzBuzz(100));
+    }
+    
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void GivenAnInputOf_Anegative_1_ArgumentException()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        sut.ConvertToFizzBuzz(-1);
+    }
+    
+    [TestMethod]
+    [ExpectedException(typeof(ArgumentException))]
+    public void GivenAnInputGreaterThan_100_ArgumentException()
+    {
+        FizzBuzzApp sut = new FizzBuzzApp();
+        sut.ConvertToFizzBuzz(101);
+    }
+}
+
+----
+       string result = "";
+        
+        if (number is >= 0 and < 101)
+        {
+            result += IsMultipleofThree(number);
+            result += IsMultpleOfFive(number);
+            return result.Length != 0 ? result :number.ToString();
+        }
+        else
+        {
+            throw new ArgumentException();
+        }
+        
+        --
+                string result = "";
+                
+                if (number is >= 0 and < 101)
+                {
+                    if (IsMultiple3and5(number)) return "FizzBuzz";
+                    if (IsMultipleOf3(number)) return "Fizz";
+                    if (IsMultipleOf5(number)) return "Buzz";
+                    return number.ToString();
+                }
+                else
+                {
+                    throw new ArgumentException();
+                }
+            }
+        
+            private static bool IsMultipleOf5(int number)
+            {
+                return number % 5 == 0;
+            }
+        
+            private static bool IsMultipleOf3(int number)
+            {
+                return number % 3 == 0;
+            }
+        
+            private static bool IsMultiple3and5(int number)
+            {
+                return number % 3 == 0 && number % 5 == 0;
+            }
+            
