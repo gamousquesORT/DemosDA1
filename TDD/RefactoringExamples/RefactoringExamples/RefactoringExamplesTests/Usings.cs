@@ -1,1 +1,1 @@
-global using Xunit;
+using static Microsoft.VisualStudio.TestPlatform.Utilities.MSTestSettingsUtilities;
