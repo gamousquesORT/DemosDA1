@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarSinOCPPaso1", "ImportarSinOCPPaso1\ImportarSinOCPPaso1.csproj", "{5F7048A5-78E5-4E74-9F4C-9DB25BFD467F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarSinOCPPaso2", "ImportarSinOCPPaso2\ImportarSinOCPPaso2.csproj", "{8E9E032A-89BA-4025-A246-8BCCD1414FC2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ImportarConPolimorfismoPaso3", "ImportarConPolimorfismoPaso3\ImportarConPolimorfismoPaso3.csproj", "{98E09522-B844-4A5F-99A0-D4BD484E1997}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5F7048A5-78E5-4E74-9F4C-9DB25BFD467F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F7048A5-78E5-4E74-9F4C-9DB25BFD467F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F7048A5-78E5-4E74-9F4C-9DB25BFD467F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F7048A5-78E5-4E74-9F4C-9DB25BFD467F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E9E032A-89BA-4025-A246-8BCCD1414FC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E9E032A-89BA-4025-A246-8BCCD1414FC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E9E032A-89BA-4025-A246-8BCCD1414FC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E9E032A-89BA-4025-A246-8BCCD1414FC2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{98E09522-B844-4A5F-99A0-D4BD484E1997}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{98E09522-B844-4A5F-99A0-D4BD484E1997}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{98E09522-B844-4A5F-99A0-D4BD484E1997}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{98E09522-B844-4A5F-99A0-D4BD484E1997}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
