@@ -8,12 +8,12 @@ public class Program
         
         Importer imp;
         imp = new ImportTxt();
-        importer.Import(imp, "archivo");
+        importer.Import(imp, "archivoTXT");
         
         imp = new ImportCsv();
-        importer.Import(imp, "archivo");
+        importer.Import(imp, "archivoCSV");
         
         imp = new ImportXml();
-        importer.Import(imp, "archivo");
+        importer.Import(imp, "archivoXML");
     }
 }

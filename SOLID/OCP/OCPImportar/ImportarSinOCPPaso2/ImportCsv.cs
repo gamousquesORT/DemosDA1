@@ -11,6 +11,6 @@ public class ImportCsv
 
     public void ImportCsvFile()
     {
-        Console.WriteLine("Importando TXT "  + _fileName);
+        Console.WriteLine("Importando CSV "  + _fileName);
     }
 }
