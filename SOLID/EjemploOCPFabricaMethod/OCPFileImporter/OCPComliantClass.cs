@@ -2,18 +2,18 @@ namespace OCPFileImporter;
 
 public class OCPComliantClass
 {
-    private FileImporter? _importer=null;
+    private OcpCompilantClass? _importer=null;
     
     public OCPComliantClass()
     {
 
     }
-    public OCPComliantClass(FileImporter? importer)
+    public OCPComliantClass(OcpCompilantClass? importer)
     {
         this.Importer = importer;
     }
     
-    public FileImporter? Importer
+    public OcpCompilantClass? Importer
     {
         set
         {

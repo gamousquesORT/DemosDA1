@@ -1,13 +1,13 @@
 namespace OCPFileImporter;
 
-public abstract class FileImporter
+public abstract class OcpCompilantClass
 {
-    public static FileImporter? Create(string? type)
+    public static OcpCompilantClass? Create(string? type)
     {
         if (type != null && type.Equals("txt"))
-            return new TxTFileImporter();
+            return new TxTOcpCompilantClass();
         else if (type != null && type.Equals("csv"))
-            return new CsvFileImporter();
+            return new CsvOcpCompilantClass();
         else
         {
             throw new ArgumentException("ese tipo de archivo no se puede importar");
@@ -17,7 +17,7 @@ public abstract class FileImporter
     public abstract string ImportFile(string filename);
 }
 
-public class CsvFileImporter : FileImporter
+public class CsvOcpCompilantClass : OcpCompilantClass
 {
     public override string ImportFile(string filename)
     {
@@ -25,7 +25,7 @@ public class CsvFileImporter : FileImporter
     }
 }
 
-public class TxTFileImporter : FileImporter
+public class TxTOcpCompilantClass : OcpCompilantClass
 {
     public override string ImportFile(string filename)
     {
