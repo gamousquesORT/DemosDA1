@@ -5,17 +5,17 @@ namespace ejemplosClase;
 public class BlogEntry : IEquatable<BlogEntry>
 {
     private static long _numberOfPosts;
-    private long _postID;
+    private long _postId;
 
     public BlogEntry()
     {
         Post = "a";
-        _postID = _numberOfPosts++;
+        _postId = _numberOfPosts++;
     }
 
+    // notar esta notación - es una Auto-Property
     public string Post { get; set; } = "a";
-
-
+    
     public static long GetNumberOfPosts()
     {
         return _numberOfPosts;
@@ -30,7 +30,7 @@ public class BlogEntry : IEquatable<BlogEntry>
     {
         if (ReferenceEquals(null, other)) return false;
         if (ReferenceEquals(this, other)) return true;
-        return _postID == other._postID;
+        return _postId == other._postId;
     }
 
     public override bool Equals(object obj)
@@ -43,7 +43,7 @@ public class BlogEntry : IEquatable<BlogEntry>
 
     public override int GetHashCode()
     {
-        return _postID.GetHashCode();
+        return _postId.GetHashCode();
     }
     
 }

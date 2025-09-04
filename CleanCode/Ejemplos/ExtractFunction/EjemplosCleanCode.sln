@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletAppCoupledDesignProd", "WalletAppCoupledDesignProd\WalletAppCoupledDesignProd.csproj", "{5088A08B-9EB9-4929-BFC6-6E1E85936DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WithDemeter", "WithDemeter\WithDemeter.csproj", "{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorCleanCodeProduction", "RefactorCleanCodeProduction\RefactorCleanCodeProduction.csproj", "{9DA0D00B-7230-4835-99A0-9C168735AF9C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoredToCleanCodeProduction", "RefactoredToCleanCodeProduction\RefactoredToCleanCodeProduction.csproj", "{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactorCleanCodeTests", "RefactorCleanCodeTests\RefactorCleanCodeTests.csproj", "{29662C3F-B1FE-487A-A706-00AEF66FB505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConditionalTofunct", "ConditionalTofunct\ConditionalTofunct.csproj", "{0927109E-E341-4171-9551-89900ABBBEB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoredToCleanCodeTests", "RefactoredToCleanCodeTests\RefactoredToCleanCodeTests.csproj", "{32456000-BE02-4FA9-BA58-7A066AC587ED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WalletCoupledDesignTest", "WalletCoupledDesignTest\WalletCoupledDesignTest.csproj", "{323A3E58-48BB-4EBC-A593-242E7717DA1C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5088A08B-9EB9-4929-BFC6-6E1E85936DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5088A08B-9EB9-4929-BFC6-6E1E85936DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5088A08B-9EB9-4929-BFC6-6E1E85936DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5088A08B-9EB9-4929-BFC6-6E1E85936DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D14B9DE1-1BD3-4D74-836C-F9676CC9B438}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DA0D00B-7230-4835-99A0-9C168735AF9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D9A58B-857A-4551-9C79-B895D5FA6D6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29662C3F-B1FE-487A-A706-00AEF66FB505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0927109E-E341-4171-9551-89900ABBBEB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0927109E-E341-4171-9551-89900ABBBEB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0927109E-E341-4171-9551-89900ABBBEB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0927109E-E341-4171-9551-89900ABBBEB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32456000-BE02-4FA9-BA58-7A066AC587ED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32456000-BE02-4FA9-BA58-7A066AC587ED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32456000-BE02-4FA9-BA58-7A066AC587ED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32456000-BE02-4FA9-BA58-7A066AC587ED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{323A3E58-48BB-4EBC-A593-242E7717DA1C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{323A3E58-48BB-4EBC-A593-242E7717DA1C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{323A3E58-48BB-4EBC-A593-242E7717DA1C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{323A3E58-48BB-4EBC-A593-242E7717DA1C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal

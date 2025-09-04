@@ -1,4 +1,4 @@
-namespace NameSpaceAppBackEnd.Domain;
+namespace NameSpaceAppBackEnd.NameSpaceAppDomain;
 
 public class User
 {
