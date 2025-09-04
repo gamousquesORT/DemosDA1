@@ -7,13 +7,13 @@ Car toyotaCar = new Car { Maker = "Toyota", Model = "Corolla", Id = "scc-3", Doo
 Motorcycle hondaMotorcycle = new Motorcycle( "Honda", "CBR", "scd-3456", false);
 
 Console.WriteLine("\n------------ car ------------");
-Console.WriteLine("Car: " + toyotaCar.Maker + " model=" + toyotaCar.Model + " id" + toyotaCar.Id + " doors" + toyotaCar.Doors);
+Console.WriteLine("Car: " + toyotaCar.Maker + " model=" + toyotaCar.Model + " id=" + toyotaCar.Id + " doors=" + toyotaCar.Doors);
 
 // que resultado daría el drive?
 toyotaCar.Drive();
 
 Console.WriteLine("------------ motorcycle ------------"); 
-Console.WriteLine("Motorcycle: " + hondaMotorcycle.Maker + " model:" + hondaMotorcycle.Model + " id" + hondaMotorcycle.Id + " Sidecar" + hondaMotorcycle.Sidecar);
+Console.WriteLine("Motorcycle: " + hondaMotorcycle.Maker + " model:" + hondaMotorcycle.Model + " id=" + hondaMotorcycle.Id + " Sidecar=" + hondaMotorcycle.Sidecar);
 
 // que resultado daría el drive?
 hondaMotorcycle.Drive();
