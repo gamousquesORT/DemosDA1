@@ -2,16 +2,17 @@ namespace PersonDevices;
 
 public class Person
 {
-    private const int MaxNumberOfDevices = 3;
+    private const int MaxNumberOfDevices = 2;
     private string _id;
     private string _fullName;
     private Cellphone?[] _cellphones;
-
+    private int _numberOfCellsphones;
     public Person()
     {
         _id = "invalid id";
         _fullName = "invalid name";
         _cellphones = new Cellphone?[MaxNumberOfDevices];
+        _numberOfCellsphones = 0;
     }
 
     public Person(string id, string fullName)
@@ -19,6 +20,7 @@ public class Person
         _id = id;
         _fullName = fullName;
         _cellphones = new Cellphone?[MaxNumberOfDevices];
+        _numberOfCellsphones = 0;
     }
     
     public string Id {get => _id; set => _id = value; }
@@ -26,14 +28,16 @@ public class Person
 
     public void AddCellphone(string imei, string cellphoneNumber)
     {
-        for (int i = 0; i < _cellphones.Length; i++)
+        if (_numberOfCellsphones < MaxNumberOfDevices)
         {
-            if (_cellphones[i] == null)
-            {
-                _cellphones[i] = new Cellphone() {IMEI = imei, CellphoneNumber = cellphoneNumber };
-                break;
-            }
+            _cellphones[_numberOfCellsphones++] = new Cellphone() {IMEI = imei, CellphoneNumber = cellphoneNumber};
         }
+        else
+        {
+            throw new ArgumentOutOfRangeException("Only two devices are supported");
+        }
+        
+        
     }
     
     public List<string> CellphonesInfo()
