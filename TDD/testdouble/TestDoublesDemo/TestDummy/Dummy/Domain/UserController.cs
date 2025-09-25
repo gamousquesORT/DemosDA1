@@ -12,7 +12,7 @@ namespace Dummy.Domain
         // authencicator es Dummy - no hace nada
         public bool Login(string username, string password, IAuthenticator authenticator)
         {
-            return false;
+            return true;
         }
     }
 }

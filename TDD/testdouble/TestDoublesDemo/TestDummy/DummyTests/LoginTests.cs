@@ -1,13 +1,12 @@
 using Dummy.Domain;
 using Dummy.Tests;
-using Xunit;
 
 namespace Test_TestDoubles
 {
-
+    [TestClass]
     public class LoginTests
     {
-        [Fact]
+        [TestMethod]
         public void TestShouldLoginGivenValidCredentials()
         {
             UserController userController = new UserController();
@@ -15,7 +14,7 @@ namespace Test_TestDoubles
             IAuthenticator authenticator = new DummyAuthenticator();
             bool result = userController.Login("gaston", "1234", authenticator);
 
-            Assert.True(result);
+            Assert.IsTrue(result);
         }
     }
 }

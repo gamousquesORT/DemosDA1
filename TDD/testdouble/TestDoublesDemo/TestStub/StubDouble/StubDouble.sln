@@ -2,7 +2,7 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Stub", "Stub\Stub.csproj", "{7EF25436-5232-4850-8C0E-9EF3073927DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestStub", "TestStub\TestStub.csproj", "{D32BDC69-520D-483A-89D2-8BB928FE8B71}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StubTests", "StubTests\StubTests.csproj", "{5CB1E6A5-005F-487A-B246-EFB5FF29800D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -14,9 +14,9 @@ Global
 		{7EF25436-5232-4850-8C0E-9EF3073927DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7EF25436-5232-4850-8C0E-9EF3073927DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7EF25436-5232-4850-8C0E-9EF3073927DC}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D32BDC69-520D-483A-89D2-8BB928FE8B71}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{D32BDC69-520D-483A-89D2-8BB928FE8B71}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{D32BDC69-520D-483A-89D2-8BB928FE8B71}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{D32BDC69-520D-483A-89D2-8BB928FE8B71}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CB1E6A5-005F-487A-B246-EFB5FF29800D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CB1E6A5-005F-487A-B246-EFB5FF29800D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CB1E6A5-005F-487A-B246-EFB5FF29800D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CB1E6A5-005F-487A-B246-EFB5FF29800D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
